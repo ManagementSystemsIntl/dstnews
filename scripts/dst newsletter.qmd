@@ -1,0 +1,54 @@
+---
+title: "DST Newsletter"
+date: "{`r Sys.Date()}"
+format: 
+  html:
+    code-fold: true
+    css: styles.css
+    toc: true
+    
+---
+
+# This is heading level one
+
+## This is heading level two
+
+### This is heading level three
+
+## Quarto
+
+This is a text box. Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+### Make a callout box
+
+:::{.box}
+::::{.box-header}
+Hightlight something cool
+::::
+::::{.box-container}
+* Know how to make your own callouts.
+* Be able to mess with some SCSS/CSS styling.
+
+There do not have to be bullet points, but it is 
+
+* an option
+::::
+:::
+
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
