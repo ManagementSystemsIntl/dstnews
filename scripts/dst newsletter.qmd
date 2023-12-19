@@ -1,12 +1,13 @@
 ---
 title: "DST Newsletter"
-date: "{`r Sys.Date()}"
+date: "December 2023"
 format: 
   html:
     code-fold: true
     css: styles.css
     toc: true
-    
+    embed-resources: true
+    smooth-scroll: true
 ---
 
 # This is heading level one
@@ -26,8 +27,8 @@ This is a text box. Quarto enables you to weave together content and executable 
 Hightlight something cool
 ::::
 ::::{.box-container}
-* Know how to make your own callouts.
-* Be able to mess with some SCSS/CSS styling.
+* Something cool 1.
+* Something cool 2.
 
 There do not have to be bullet points, but it is 
 
