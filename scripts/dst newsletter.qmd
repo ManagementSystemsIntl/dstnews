@@ -10,11 +10,51 @@ format:
     smooth-scroll: true
 ---
 
-# This is heading level one
+# Happenings
 
-## This is heading level two
+## Social Networking Analysis Brown Bag
 
 ### This is heading level three
+
+## Mapping Brown Bag
+
+# Stats corner
+
+:::{.box}
+::::{.box-header}
+Stats corner
+::::
+::::{.box-container}
+Text/pic here
+::::
+:::
+
+# Member Spotlight
+
+# Recap: Quarterly Meeting
+
+# Recap: GIS COP January Meeting
+Our in-house GIS Specialist Jacob Milley hosted the second GIS COP on January 23 with around 20 in attendance. The meeting included a recap of the first COP meeting, a presentation by Joaquin Martin Lopez on his GIS work for El Salvador MEL project using ArcGIS Online and a brief discussion on GIS data sources. The GIS COP is planning to put together a list of available GIS data sources to help other GIS folk get their hands on more available data!
+
+# Upcoming events/opportunities
+
+# About the Data Science Team
+
+:::{.box}
+::::{.box-header}
+Overview
+::::
+::::{.box-container}
+The Data Science Team (DST) is a collection of colleagues at MSI that are interested in building and practicing data analytics skills, from the basics of descriptive analytics to advanced machine learning techniques. The core members of the Data Science Team are Dan Killian, Brian Calhoon, Melanie Murphy, Tim Reilly, Tim Shifflett, Gunjan Maheshwari, Jack Payne, and Jacob Milley. Each member brings a particular expertise to ensure that the team’s initiatives are in line with MSI’s commitment to incorporate advanced data analytics into our work. The core team supports MSI staff by: 
+
+* Supporting staff conducting quantitative and qualitative analysis with guidance on best practice and available data sources. 
+* Helping staff learn new data science techniques and applying the techniques to existing activities. 
+* Providing trainings on the application of analyses across multiple analytical packages, as well as on core statistical concepts that underlie the analyses. 
+* Holding structured trainings on-demand, at least once per year and 4-12 brown bag sessions per year. 
+* Holding weekly office hours and on-demand consultation. 
+* Providing a knowledge management function for past and current data science work at MSI while ensuring everyone knows about these resources. 
+::::
+:::
 
 ## Quarto
 This is a text box. Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
@@ -34,7 +74,6 @@ There do not have to be bullet points, but it is
 * an option
 ::::
 :::
-
 
 ## Running Code
 
