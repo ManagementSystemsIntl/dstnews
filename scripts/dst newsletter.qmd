@@ -34,7 +34,7 @@ Text/pic here
 # Recap: Quarterly Meeting
 
 # Recap: GIS COP January Meeting
-Our in-house GIS Specialist Jacob Milley hosted the second GIS COP on January 23 with around 20 in attendance. The meeting included a recap of the first COP meeting, a presentation by Joaquin Martin Lopez on his GIS work for El Salvador MEL project using ArcGIS Online and a brief discussion on GIS data sources. The GIS COP is developing a list of available [GIS data sources](https://tetratechinc.sharepoint.com/:x:/r/teams/MSIAdvancedAnalyticsWritingGroup/Shared%20Documents/GIS%20COP/GIS_Data_Sources.xlsx?d=web01598398674cfbaea8a4beb8f223c6&csf=1&web=1&e=Uot9f8) to help other GIS folk get their hands on more available data!
+Our in-house GIS Specialist Jacob Milley hosted the second GIS COP on January 23 with around 20 colleagues from varying projects/countries in attendance. The meeting included a recap of the first COP meeting, a presentation by Joaquin Martin Lopez on his GIS work for the El Salvador MEL project using ArcGIS Online, and finally a brief discussion on commonly used GIS data sources. The goal of this disucssion was for the GIS COP to establish an authoritative a list of freely accessible [GIS data sources](https://tetratechinc.sharepoint.com/:x:/r/teams/MSIAdvancedAnalyticsWritingGroup/Shared%20Documents/GIS%20COP/GIS_Data_Sources.xlsx?d=web01598398674cfbaea8a4beb8f223c6&csf=1&web=1&e=Uot9f8) to help other GIS users at MSI get their hands on more available data!
 
 # Upcoming events/opportunities
 
