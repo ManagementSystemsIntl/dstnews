@@ -1,5 +1,5 @@
 ---
-title: "DST Newsletter"
+title: "The Data Science Newsletter"
 date: "December 2023"
 format: 
   html:
