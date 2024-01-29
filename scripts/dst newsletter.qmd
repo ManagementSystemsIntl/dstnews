@@ -34,6 +34,19 @@ Dan to update today/tomorrow
 # Member Spotlight
 
 # Recap: Quarterly Meeting
+Our latest DST quarterly meeting was held on December 20th, 2023 with approximately 20 colleagues across both home and field offices.
+
+We kicked off with a brief overview of our recent social network analysis and mapping brown bags. The team also highlighted contributions to a pivotal study by the Center for Global Development, focusing on early-grade reading assessment (EGRA) programs.
+
+A significant portion of the quarterly meeting was dedicated to interactive breakout sessions. These sessions provided a platform for deep-diving into a variety of sampling scenarios. We explored how to effectively address and mitigate potential validity threats in these scenarios. Key discussions included:
+
+- The influence of human choice on random sampling, emphasizing the need for enumerators to recognize and     account for these characteristics.
+- In Third-Party Monitoring (TPM), the importance of being cognizant of biases, especially those related to   the locations selected for random sampling.
+- Challenges and considerations in applying weights to ensure representativeness within the zone of           influence.
+- Addressing the issue of survivorship bias, which can skew data by overlooking non-representative elements.
+
+These discussions set the stage for our upcoming brown bag in February 2024, where we will delve into sampling best practices and techniques, informed by our recent scenario planning exercises.
+
 
 # Recap: GIS COP January Meeting
 Our in-house GIS Specialist Jacob Milley hosted the second GIS COP on January 23 with around 20 colleagues from varying projects/countries in attendance. The meeting included a recap of the first COP meeting, a presentation by Joaquin Martin Lopez on his GIS work for the El Salvador MEL project using ArcGIS Online, and finally a brief discussion on commonly used GIS data sources. The goal of this disucssion was for the GIS COP to establish an authoritative a list of freely accessible [GIS data sources](https://tetratechinc.sharepoint.com/:x:/r/teams/MSIAdvancedAnalyticsWritingGroup/Shared%20Documents/GIS%20COP/GIS_Data_Sources.xlsx?d=web01598398674cfbaea8a4beb8f223c6&csf=1&web=1&e=Uot9f8) to help other GIS users at MSI get their hands on more available data!
