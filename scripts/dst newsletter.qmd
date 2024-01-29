@@ -26,6 +26,8 @@ Stats corner
 ::::
 ::::{.box-container}
 Text/pic here
+
+Dan to update today/tomorrow
 ::::
 :::
 
