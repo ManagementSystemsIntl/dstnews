@@ -16,7 +16,7 @@ format:
 knitr::opts_chunk$set(autodep=T, fig.height=4, fig.width=6, warning=FALSE, message=FALSE, cache=TRUE, error=T, echo=T)
 
 library(here)
-source(here("../Methods Corner/misc/prep.r"))
+source(here::here("../methods-corner/misc/prep.r"))
 ```
 
 # Happenings
@@ -53,7 +53,16 @@ Based only on the information from the above figure, advise USAF on where it sho
 \$10 gift card to the first three responders with correct answers!
 :::
 
-# Member Spotlight
+# GIS Spotlight
+
+This month’s GIS Spotlight is Joaquin Martin Lopez, our esteemed GIS Specialist on the EL Salvador MELS project who joined MSI in April 2023. As those of you who joined January’s GIS COP meeting heard about, Joaquin has been working on a GIS “One Stop Shop” for the mission showcasing both contextual and project specific information for El Salvador as well as the surrounding Central American countries. The GIS “One Stop Shop” consists of a variety of interactive dashboards and story maps using ArcGIS online which allows users at USAID to dynamically view data submitted by implementing partners on themes such as education and economic growth. In addition, the Joaquin and the project will be conducting a mission-wide GIS assessment to gauge the current and future GIS capacity. The hope is that El Salvador MEL’s usage of GIS will enable the mission and IPs to make informed decisions as to where to focus development work going forward. If you have any questions or are interested in learning a bit more about his GIS work for El Salvador MELS, feel free to contact him directly via email or Teams: <a href="mailto:joaquin.martinlopez@msi-inc.com">Joaquin Martin-Lopez</a>. 
+
+```{r echo = FALSE}
+
+knitr::include_graphics("../viz/gisplatform.png")
+
+```
+
 
 # Recap: Quarterly Meeting
 
@@ -72,12 +81,7 @@ These discussions set the stage for our upcoming brown bag in February 2024, whe
 
 # Recap: GIS COP January Meeting
 
-Our in-house GIS Specialist Jacob Milley hosted the second GIS COP on January 23 with around 20 colleagues from varying projects/countries in attendance. The meeting included a recap of the first COP meeting, a presentation by Joaquin Martin Lopez on his GIS work for the El Salvador MEL project using ArcGIS Online, and finally a brief discussion on commonly used GIS data sources. The goal of this disucssion was for the GIS COP to establish an authoritative a list of freely accessible [GIS data sources](https://tetratechinc.sharepoint.com/:x:/r/teams/MSIAdvancedAnalyticsWritingGroup/Shared%20Documents/GIS%20COP/GIS_Data_Sources.xlsx?d=web01598398674cfbaea8a4beb8f223c6&csf=1&web=1&e=Uot9f8) to help other GIS users at MSI get their hands on more available data!
-
-```{r echo = FALSE}
-
-
-```
+Our in-house GIS Specialist Jacob Milley hosted the second GIS COP on January 23 with around 20 colleagues from varying projects/countries in attendance. The meeting included a recap of the first COP meeting, a presentation by Joaquin Martin Lopez on his GIS work for the El Salvador MEL project using ArcGIS Online, and finally a brief discussion on commonly used GIS data sources. The goal of this discussion was for the GIS COP to establish an authoritative a list of freely accessible [GIS data sources](https://tetratechinc.sharepoint.com/:x:/r/teams/MSIAdvancedAnalyticsWritingGroup/Shared%20Documents/GIS%20COP/GIS_Data_Sources.xlsx?d=web01598398674cfbaea8a4beb8f223c6&csf=1&web=1&e=Uot9f8) to help other GIS users at MSI get their hands on more available data!
 
 # Upcoming events/opportunities
 
