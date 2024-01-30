@@ -8,6 +8,7 @@ format:
     toc: true
     embed-resources: true
     smooth-scroll: true
+
 ---
 
 ```{r global_options, include=F, warning=F, message=F, echo=F, error=F}
@@ -22,8 +23,14 @@ source(here::here("../methods-corner/misc/prep.r"))
 # Happenings
 
 ## Social Networking Analysis Brown Bag
+On September 26, the Data Science Team hosted a brown bag on Social Network Analysis that was led by Brian Calhoon. Using data from our survey of DST members, Brian cleaned the data, transformed it into a graph object, and demonstrated how to calculate standard network statistics. In addition, he simulated similar network in order to compare our actual network performance with what we should expect. Finally, he demonstrated how to use clustering algorithms to separate the network into communities. 
 
-### This is heading level three
+::: {layout-ncol=2}
+
+![Distances between people in the network](../viz/distances.png){width=50%  group="gallery1" .lightbox} 
+
+![Communities within a network](../viz/community.png){width=50% group="gallery1"} 
+:::
 
 ## Mapping Brown Bag
 
