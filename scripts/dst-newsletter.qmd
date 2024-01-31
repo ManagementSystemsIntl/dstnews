@@ -1,5 +1,6 @@
 ---
-title: "The Data Science Newsletter"
+title: "Quarterly Connection"
+subtitle: "The Data Science Newsletter"
 date: "January 31, 2024"
 description: "A timely update on all things data science at MSI"
 title-block-banner: "#CACACA"
