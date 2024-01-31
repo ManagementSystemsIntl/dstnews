@@ -56,3 +56,12 @@ h3 {
   background-color: white;
   border-bottom-right-radius: 10px;
 }
+
+.quarto-title-block .quarto-title-banner {
+  background-image: url(../viz/logo.png);
+  background-size: 120px;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  background-origin: content-box;
+}

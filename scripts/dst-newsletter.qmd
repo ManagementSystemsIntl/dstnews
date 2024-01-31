@@ -1,6 +1,8 @@
 ---
 title: "The Data Science Newsletter"
 date: "January 2024"
+description: "A timely update on all things data science at MSI"
+title-block-banner: "#CACACA"
 format: 
   html:
     code-fold: true
@@ -37,9 +39,9 @@ On November 16, 2024 the data science team hosted a brown bag to demonstrate bas
 
 ::: {layout-ncol=2}
 
-![Understanding GIS data](../viz/gisdata.png){width = 50%}
+![Understanding GIS data](../viz/gisdata.png){width=50%}
 
-![A map of Madagascar](..viz/madagascar-map.png){width = 50%}
+![A map of Madagascar](../viz/madagascar-map.png){width=50%}
 
 :::
 # Stats corner
@@ -65,7 +67,9 @@ Your mission:
 
 Based only on the information from the above figure, advise USAF on where it should add additional armor to its fighters.
 
-\$10 gift card to the first three responders with correct answers!
+\$10 gift card to the first three responders with correct answers. Please send all responses to <a href="mailto:dkillian@msi-inc.com">Dan Killian</a>.
+
+
 :::
 
 # GIS Spotlight
@@ -99,6 +103,12 @@ These discussions set the stage for our upcoming brown bag in February 2024, whe
 Our in-house GIS Specialist Jacob Milley hosted the second GIS COP on January 23 with around 20 colleagues from varying projects/countries in attendance. The meeting included a recap of the first COP meeting, a presentation by Joaquin Martin Lopez on his GIS work for the El Salvador MEL project using ArcGIS Online, and finally a brief discussion on commonly used GIS data sources. The goal of this discussion was for the GIS COP to establish an authoritative a list of freely accessible [GIS data sources](https://tetratechinc.sharepoint.com/:x:/r/teams/MSIAdvancedAnalyticsWritingGroup/Shared%20Documents/GIS%20COP/GIS_Data_Sources.xlsx?d=web01598398674cfbaea8a4beb8f223c6&csf=1&web=1&e=Uot9f8) to help other GIS users at MSI get their hands on more available data!
 
 # Upcoming events/opportunities
+
+- Brown bag on sampling in mid-February
+
+- Brown bag on Power BI Part 3 in March
+
+- Brown bag on data collection instrument design and scripting in May
 
 # About the Data Science Team
 
