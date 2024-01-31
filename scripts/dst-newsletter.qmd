@@ -1,6 +1,6 @@
 ---
 title: "The Data Science Newsletter"
-date: "December 2023"
+date: "January 2024"
 format: 
   html:
     code-fold: true
@@ -23,17 +23,25 @@ source(here::here("../methods-corner/misc/prep.r"))
 # Happenings
 
 ## Social Networking Analysis Brown Bag
-On September 26, the Data Science Team hosted a brown bag on Social Network Analysis that was led by Brian Calhoon. Using data from our survey of DST members, Brian cleaned the data, transformed it into a graph object, and demonstrated how to calculate standard network statistics. In addition, he simulated similar network in order to compare our actual network performance with what we should expect. Finally, he demonstrated how to use clustering algorithms to separate the network into communities. 
+On September 26, 2023 the Data Science Team hosted a brown bag on Social Network Analysis that was led by Brian Calhoon. Using data from our survey of DST members, Brian cleaned the data, transformed it into a graph object, and demonstrated how to calculate standard network statistics. In addition, he simulated similar network in order to compare our actual network performance with what we should expect. Finally, he demonstrated how to use clustering algorithms to separate the network into communities. 
 
 ::: {layout-ncol=2}
 
-![Distances between people in the network](../viz/distances.png){width=50%  group="gallery1" .lightbox} 
+![Identifying communities in our network](../viz/communities.png){width=50%} 
 
-![Communities within a network](../viz/community.png){width=50% group="gallery1"} 
+![Leveraging simulations to understand network statistics](../viz/statistical comp.png){width=50%} 
 :::
 
 ## Mapping Brown Bag
+On November 16, 2024 the data science team hosted a brown bag to demonstrate basic mapping skills in QGIS and R. MSI's internal GIS Specialist, Jacob Milley led the session where he introduced GIS concepts, types of spatial data, and common data sources before demonstrating how to make a map in QGIS. Then, Brian Calhoon followed up by duplicating the same demonstration in R using the [ggplot2](https://ggplot2.tidyverse.org/) package. 
 
+::: {layout-ncol=2}
+
+![Understanding GIS data](../viz/gisdata.png){width = 50%}
+
+![A map of Madagascar](..viz/madagascar-map.png){width = 50%}
+
+:::
 # Stats corner
 
 ::: box
