@@ -1,6 +1,6 @@
 ---
 title: "The Data Science Newsletter"
-date: "January 2024"
+date: "January 31, 2024"
 description: "A timely update on all things data science at MSI"
 title-block-banner: "#CACACA"
 format: 
@@ -23,7 +23,6 @@ source(here::here("../methods-corner/misc/prep.r"))
 ```
 
 # Happenings
-For recordings, presentations, and any associated background material on any DST event, please visit our [Egnyte repository](https://msiworldwide.egnyte.com/navigate/folder/acca480d-c7b8-462a-8c49-508441335a6d)
 
 ## Social Networking Analysis Brown Bag
 On September 26, 2023 the Data Science Team hosted a brown bag on Social Network Analysis that was led by Brian Calhoon. Using data from our survey of DST members, Brian cleaned the data, transformed it into a graph object, and demonstrated how to calculate standard network statistics. In addition, he simulated similar networks in order to compare our actual network performance with what we should expect. Finally, he demonstrated how to use clustering algorithms to separate the network into communities. 
@@ -45,6 +44,10 @@ On November 16, 2024 the data science team hosted a brown bag to demonstrate bas
 ![A map of Madagascar](../viz/madagascar-map.png){width=50%}
 
 :::
+
+For recordings, presentations, and any associated background material on any DST event, please visit our [Egnyte repository](https://msiworldwide.egnyte.com/navigate/folder/acca480d-c7b8-462a-8c49-508441335a6d).
+
+
 # Stats corner
 
 ::: box
