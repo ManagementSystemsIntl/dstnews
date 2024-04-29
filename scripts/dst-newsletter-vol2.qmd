@@ -104,8 +104,17 @@ Send all responses to [Dan Killian](dkillian@msi-inc.com)
 - Brown bag on Power BI Part 3 in June
 
 
-# Section on Brian
+# Fare thee well, Brian Calhoon
 
+The data science team bids farewell to founding member Brian Calhoon, who thankfully will still have opportunities to work with MSI through our partnerships with Encompass. Brian was instrumental in advancing the practice of data science at MSI. Brian introduced the topic of social network analysis to all MSI technical staff, helped demonstrate its uses, and developed potential use cases for how MSI might utilize social network analysis in its work. Brian also led the development of geospatial mapping and analysis using the R programming language.  Last but not least, Brian used the R programming language to enable the data science team to include interactive tables in its reporting, in which the client could filter a measure of interest against any number of demographic or other disaggregations.    
+
+Brian will be remembered less for his technical contributions than for his warmth and kindness as a human. 
+
+# Data science team welcomes: Thomaz Alvares
+
+Starting from his time as an evaluation specialist with JPAL, and continuing on to a long service with the MSI Education Team, Thomaz (already an honorary member of and technical advisor to the team) will now take a more active role. Thomaz is currently a Technical Director in the Education practice, and among other roles serves as Deputy Director of the DECODE activity. 
+
+Welcome, Thomaz! 
 
 # About the Data Science Team
 
