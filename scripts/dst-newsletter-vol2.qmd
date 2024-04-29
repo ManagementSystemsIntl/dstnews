@@ -20,7 +20,7 @@ format:
 knitr::opts_chunk$set(autodep=T, fig.height=4, fig.width=6, warning=FALSE, message=FALSE, cache=TRUE, error=T, echo=T)
 
 library(here)
-source(here::here("../methods corner/misc/prep.r"))
+source(here::here("../methods-corner/misc/prep.r"))
 ```
 
 # Happenings
@@ -106,7 +106,7 @@ Send all responses to [Dan Killian](dkillian@msi-inc.com)
 
 # Fare thee well, Brian Calhoon
 
-The data science team bids farewell to founding member Brian Calhoon, who thankfully will still have opportunities to work with MSI through our partnerships with Encompass. Brian was instrumental in advancing the practice of data science at MSI. Brian introduced the topic of social network analysis to all MSI technical staff, helped demonstrate its uses, and developed potential use cases for how MSI might utilize social network analysis in its work. Brian also led the development of geospatial mapping and analysis using the R programming language.  Last but not least, Brian used the R programming language to enable the data science team to include interactive tables in its reporting, in which the client could filter a measure of interest against any number of demographic or other disaggregations.    
+The data science team bids farewell to founding member Brian Calhoon, who thankfully will still have opportunities to work with MSI through our partnerships with Encompass. Brian was instrumental in advancing the practice of data science at MSI. Brian introduced the topic of social network analysis to all MSI technical staff, helped demonstrate its uses, and developed potential use cases for how MSI might utilize social network analysis in its work. Brian also led the development of geospatial mapping and analysis using the R programming language.  Last but not least, Brian used the R programming language to enable the data science team to include interactive tables in its reporting, in which the client could filter a measure of interest against any number of demographic or other disaggregations. 
 
 Brian will be remembered less for his technical contributions than for his warmth and kindness as a human. 
 
