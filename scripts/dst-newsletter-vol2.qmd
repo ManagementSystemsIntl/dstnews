@@ -120,7 +120,6 @@ Send all responses to [Dan Killian](dkillian@msi-inc.com)
 
 
 # Member Spotlight - Ethiopia Data Analyst 
-
 ::: {layout-ncol=2}
 ![Natnael Mamuye](../viz/Natnael-Mamuye.png)
 :::
