@@ -1,0 +1,131 @@
+---
+title: "Quarterly Connection"
+subtitle: "The Data Science Newsletter"
+date: "April 30, 2024"
+description: "A timely update on all things data science at MSI"
+title-block-banner: "#CACACA"
+format: 
+  html:
+    code-fold: true
+    css: styles.css
+    toc: true
+    embed-resources: true
+    smooth-scroll: true
+
+---
+
+```{r global_options, include=F, warning=F, message=F, echo=F, error=F}
+
+# standard figure size and generate clean output
+knitr::opts_chunk$set(autodep=T, fig.height=4, fig.width=6, warning=FALSE, message=FALSE, cache=TRUE, error=T, echo=T)
+
+library(here)
+source(here::here("../methods-corner/misc/prep.r"))
+```
+
+# Happenings
+
+## TPM Sampling Brown Bag
+
+
+
+## Sampling Pt2 Brown Bag
+
+The second sampling brown bag reviewed more complex settings including stratified and cluster sampling in the presence of correlated measurements. Using the example of the Lebanon Arab Barometer survey, it was found that simple random sample needed to be more than tripled in order to reach the same margin of error. The following table summarizes the sample sizes needed to reach given levels of precision. 
+
+```{r}
+
+samp_sum <- read_csv(here("tables/summary sampling table.csv"),
+                     show_col_types = F)
+
+flextable(samp_sum) %>% 
+  set_header_labels(
+                    margin="Margin of error",
+                    srs="Simple random sample",
+                    complex="Complex sample",
+                    scope="Geographic scope") %>%
+  autofit() 
+
+```
+
+
+## Learning burst - Andres
+
+
+## Learning burst - Busayo
+
+
+For recordings, presentations, and any associated background material on any DST event, please visit our [Egnyte repository](https://msiworldwide.egnyte.com/navigate/folder/acca480d-c7b8-462a-8c49-508441335a6d).
+
+
+# Stats corner
+
+Last issue's puzzle asked where to add additional armor to USAF fighters, based on damage reports from all fighters returning from active combat. The correct response is to add armor in the places where we do not see damage, because fighters that sustain damage to those areas do not return from active combat. Congrats to Tim Reilly and Carolyn Fonseca for correct responses!! Per terms of the agreement, they both now have the honor of buying lunch for the data science team. 
+
+[A Method of Estimating Plane Vulnerability Based on Damage of Survivors](https://web.archive.org/web/20190713234912/https://apps.dtic.mil/dtic/tr/fulltext/u2/a091073.pdf)
+
+[Bullet Holes & Bias: The Story of Abraham Wald](https://mcdreeamiemusings.com/blog/2019/4/1/survivorship-bias-how-lessons-from-world-war-two-affect-clinical-research-today)
+
+[Beware the Dangers of Selection Bias](https://hbr.org/2009/03/beware-the-danger-of-selection)
+
+::: box
+::: box-header
+Today's puzzle
+:::
+
+::: box-container
+
+To be an actor, it helps to have talent and attractiveness. So there is a positive correlation between talent and being an actor, and a positive correlation between attractiveness and being an actor. For the sake of this puzzle, suppose that talent and attractiveness are completely independent of one another among humans.
+
+When we look at actors and compare measures of talent and attractiveness, we find a negative correlation - talented actors tend to be less attractive, and attractive actors tend to be less talented. 
+
+How can this be, if talent and attractiveness are independent of one another in the human population? 
+
+Send all responses to [Dan Killian](dkillian@msi-inc.com)
+
+:::
+:::
+
+
+
+# Project spotlight - PIMMELLA
+
+
+# Member Spotlight - Ethiopia Data Analyst 
+
+
+# Recap: GIS COP April Meeting
+
+
+# Upcoming events/opportunities
+
+- Brown bag on data collection instrument design and scripting in May
+
+- Brown bag on Power BI Part 3 in June
+
+
+# Section on Brian
+
+
+# About the Data Science Team
+
+::: box
+::: box-header
+Overview
+:::
+
+::: box-container
+The Data Science Team (DST) is a collection of colleagues at MSI that are interested in building and practicing data analytics skills, from the basics of descriptive analytics to advanced machine learning techniques. The core members of the Data Science Team are Dan Killian, Melanie Murphy, Tim Reilly, Tim Shifflett, Gunjan Maheshwari, Jack Payne, Jacob Milley and Thomaz Alvares. Each member brings a particular expertise to ensure that the team's initiatives are in line with MSI's commitment to incorporate advanced data analytics into our work. The core team supports MSI staff by:
+
+-   Supporting staff conducting quantitative and qualitative analysis with guidance on best practice and available data sources.
+-   Helping staff learn new data science techniques and applying the techniques to existing activities.
+-   Providing trainings on the application of analyses across multiple analytical packages, as well as on core statistical concepts that underlie the analyses.
+-   Holding structured trainings on-demand, at least once per year and 4-12 brown bag sessions per year.
+-   Holding weekly office hours and on-demand consultation.
+-   Providing a knowledge management function for past and current data science work at MSI while ensuring everyone knows about these resources.
+
+For support or to ask questions, reach out to us on our [Teams Channel](https://teams.microsoft.com/l/channel/19%3A0c95c6fade9c4d638f660ded25507a9a%40thread.tacv2/General?groupId=175a191b-5543-4fc0-81db-926ead8863f1&tenantId=).
+:::
+:::
+
+
