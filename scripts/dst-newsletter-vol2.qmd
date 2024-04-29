@@ -20,7 +20,7 @@ format:
 knitr::opts_chunk$set(autodep=T, fig.height=4, fig.width=6, warning=FALSE, message=FALSE, cache=TRUE, error=T, echo=T)
 
 library(here)
-source(here::here("../methods-corner/misc/prep.r"))
+source(here::here("../methods corner/misc/prep.r"))
 ```
 
 # Happenings
