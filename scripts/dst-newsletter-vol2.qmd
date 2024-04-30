@@ -117,6 +117,9 @@ Send all responses to [Dan Killian](dkillian@msi-inc.com)
 
 
 # Project spotlight - PIMMELLA
+The Philippines, Pacific Islands, and Mongolia Monitoring, Evaluation, and Learning Activity (PIMMELA), aims to support USAID’s initiatives across a vast geographic region. PIMMELA will be based in Manila, Philippines, with additional offices in Fiji, Papua New Guinea, and Mongolia. The project's primary focus is to enhance USAID’s decision-making and program effectiveness through innovative data analytics and management solutions.
+
+Key data science and analytics initiatives planned for PIMMELA include the integration of advanced technologies like simulation modeling and machine learning to analyze complex datasets more efficiently. These techniques will produce actionable insights that can inform USAID’s strategic planning and implementation. PIMMELA will utilize data visualization tools and techniques to make the monitoring, evaluation, research, reporting, learning, analysis, and adaptation (MERRLAA) products more accessible and actionable for stakeholders. This new project and robust approach underscores MSI's commitment to employing cutting-edge data science to improve development outcomes in the Philippines, Pacific Islands, and Mongolia.
 
 
 # Member Spotlight - Ethiopia Data Analyst 
