@@ -133,6 +133,8 @@ On April 4th, our HO GIS Specialist Jacob Milley hosted the third GIS Community 
 
 -   Brown bag on data collection instrument design and scripting in May
 
+-   Learning burst on the use of the Fulcrum API with Python and R in May
+
 -   Brown bag on Power BI Part 3 in June
 
 # Fare thee well, Brian Calhoon
