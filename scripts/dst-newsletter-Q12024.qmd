@@ -2,7 +2,7 @@
 title: "Quarterly Connection"
 subtitle: "The MSI Data Science Newsletter"
 date: "April 30, 2024"
-description: "This document written in [Quarto](https://quarto.org), a scientific publishing<br>system compatible with R, Python, Julia, and Observable ^[speak any of these languages? Ask us for the script]"
+description: "This document written in [Quarto](https://quarto.org), a scientific publishing<br>system compatible with R, Python, Julia, and Observable ^[Speak any of these languages? Ask us for the script]"
 title-block-banner: "#CACACA"
 format: 
   html:
@@ -104,14 +104,13 @@ Send all responses to [Dan Killian](dkillian@msi-inc.com)
 :::
 
 # Project spotlight - PIMMELLA
+The Philippines, Pacific Islands, and Mongolia Monitoring, Evaluation, and Learning Activity (PIMMELA), aims to support USAID’s initiatives across a vast geographic region. PIMMELA will be based in Manila, Philippines, with additional offices in Fiji, Papua New Guinea, and Mongolia. The project's primary focus is to enhance USAID’s decision-making and program effectiveness through innovative data analytics and management solutions.
+
+Key data science and analytics initiatives planned for PIMMELA include the integration of advanced technologies like simulation modeling and machine learning to analyze complex datasets more efficiently. These techniques will produce actionable insights that can inform USAID’s strategic planning and implementation. PIMMELA will utilize data visualization tools and techniques to make the monitoring, evaluation, research, reporting, learning, analysis, and adaptation (MERRLAA) products more accessible and actionable for stakeholders. This new project and robust approach underscores MSI's commitment to employing cutting-edge data science to improve development outcomes in the Philippines, Pacific Islands, and Mongolia.
 
 # Member Spotlight - Ethiopia Data Analyst
 
-::: {layout-ncol="2"}
-![Natnael Mamuye](../viz/Natnael-Mamuye.png)
-:::
-
-In this edition of Quarterly Connection, we are pleased to showcase the contributions of our newest member of the Data Science Team, Natnael Mamuye, who recently joined the Ethiopia Learning Analytics Activity Third Party Monitoring (TPM) Team as a TPM Data Analyst and Reporting Officer. Despite being new to the team, Natnael has swiftly taken on the responsibility of analyzing and reporting on over 300 site visits per month for the Ethiopia TPM, ensuring timely and comprehensive reports and presentations for USAID within demanding timelines.
+![Natnael Mamuye](../viz/Natnael-Mamuye.png) In this edition of Quarterly Connection, we are pleased to showcase the contributions of our newest member of the Data Science Team, Natnael Mamuye, who recently joined the Ethiopia Learning Analytics Activity Third Party Monitoring (TPM) Team as a TPM Data Analyst and Reporting Officer. Despite being new to the team, Natnael has swiftly taken on the responsibility of analyzing and reporting on over 300 site visits per month for the Ethiopia TPM, ensuring timely and comprehensive reports and presentations for USAID within demanding timelines.
 
 Natnael brings a wealth of experience and expertise to his role, including: - Bachelor's degree in Statistics and Master's degree in Applied Statistics. - Previous experience as a lecturer in the Department of Statistics at Debre Berhan University. - Previous roles as a Quantitative Researcher at the Ethiopian Technology and Innovation Institute and as a Data Engineer at the Ethiopian Artificial Intelligence Institute. - Proficiency in Stata, Python, Power BI, and SPSS.
 
