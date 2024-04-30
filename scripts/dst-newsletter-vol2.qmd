@@ -2,7 +2,7 @@
 title: "Quarterly Connection"
 subtitle: "The Data Science Newsletter"
 date: "April 30, 2024"
-description: "A timely update on all things data science at MSI"
+description: "A timely update on all things data science at MSI<br>This document written in Quarto, a scientific publishing system compatible with R, Python, Julia, and Observable"
 title-block-banner: "#CACACA"
 format: 
   html:
@@ -20,7 +20,7 @@ format:
 knitr::opts_chunk$set(autodep=T, fig.height=4, fig.width=6, warning=FALSE, message=FALSE, cache=TRUE, error=T, echo=T)
 
 library(here)
-source(here::here("../methods-corner/misc/prep.r"))
+source(here::here("../methods corner/misc/prep.r"))
 ```
 
 # Happenings
