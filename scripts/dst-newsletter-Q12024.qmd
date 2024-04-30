@@ -112,7 +112,11 @@ Key data science and analytics initiatives planned for PIMMELA include the integ
 
 ![Natnael Mamuye](../viz/Natnael-Mamuye.png) In this edition of Quarterly Connection, we are pleased to showcase the contributions of our newest member of the Data Science Team, Natnael Mamuye, who recently joined the Ethiopia Learning Analytics Activity Third Party Monitoring (TPM) Team as a TPM Data Analyst and Reporting Officer. Despite being new to the team, Natnael has swiftly taken on the responsibility of analyzing and reporting on over 300 site visits per month for the Ethiopia TPM, ensuring timely and comprehensive reports and presentations for USAID within demanding timelines.
 
-Natnael brings a wealth of experience and expertise to his role, including: - Bachelor's degree in Statistics and Master's degree in Applied Statistics. - Previous experience as a lecturer in the Department of Statistics at Debre Berhan University. - Previous roles as a Quantitative Researcher at the Ethiopian Technology and Innovation Institute and as a Data Engineer at the Ethiopian Artificial Intelligence Institute. - Proficiency in Stata, Python, Power BI, and SPSS.
+Natnael brings a wealth of experience and expertise to his role, including: 
+- Bachelor's degree in Statistics and Master's degree in Applied Statistics. 
+- Previous experience as a lecturer in the Department of Statistics at Debre Berhan University. 
+- Previous roles as a Quantitative Researcher at the Ethiopian Technology and Innovation Institute and as a Data Engineer at the Ethiopian Artificial Intelligence Institute. 
+- Proficiency in Stata, Python, Power BI, and SPSS.
 
 His diverse background and proficiency in data analysis tools make him a valuable asset to the Ethiopia LAA team and the Data Science Community at MSI, and we look forward to his continued contributions to our projects.
 
