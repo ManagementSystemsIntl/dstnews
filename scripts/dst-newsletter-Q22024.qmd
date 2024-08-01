@@ -26,6 +26,8 @@ source(here::here("scripts/prep.r"))
 
 ## Instrument Design and Scripting Brown Bag 
 
+Jack introduced a streamlined approach to instrument design and scripting, emphasizing the efficiency of using data dictionaries over traditional Word documents. The team tackled common scripting challenges, sharing innovative solutions like pretesting and adapting multiple choice questions into yes/no formats for clearer data analysis. An interactive exercise allowed participants to apply these concepts, enhancing their skills in incorporating client feedback into instrument design. This collaborative session not only addressed technical hurdles but also fostered a shared understanding of best practices in data collection and analysis.
+
 For recordings, presentations, and any associated background material on any DST event, please visit our [Egnyte repository](https://msiworldwide.egnyte.com/navigate/folder/acca480d-c7b8-462a-8c49-508441335a6d).
 
 # Learning Bursts
@@ -97,6 +99,8 @@ In this edition of Quarterly Connection, we are pleased to showcase the contribu
 -   Brown bag on Getting Starting in GitHub
 
 -   Brown bag on DDL uploads
+
+In addition to these sessions, we'll be reaching out to project teams to schedule one-on-one consultations. This is a great opportunity to discuss your project-specific data science capabilities and needs. We’re here to help you succeed!
 
 # About the Data Science Team
 
