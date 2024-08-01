@@ -1,0 +1,144 @@
+---
+title: "Quarterly Connection"
+subtitle: "The MSI Data Science Newsletter"
+date: "July 31, 2024"
+description: "This document written in [Quarto](https://quarto.org), a scientific publishing<br>system compatible with R, Python, Julia, and Observable ^[Speak any of these languages? Ask us for the script]"
+title-block-banner: "#CACACA"
+format: 
+  html:
+    code-fold: true
+    css: styles.css
+    toc: true
+    embed-resources: true
+    smooth-scroll: true
+---
+
+```{r global_options, include=F, warning=F, message=F, echo=F, error=F}
+
+# standard figure size and generate clean output
+knitr::opts_chunk$set(autodep=T, fig.height=4, fig.width=6, warning=FALSE, message=FALSE, cache=TRUE, error=T, echo=T)
+
+library(here)
+source(here::here("scripts/prep.r"))
+```
+
+# Happenings
+
+## Instrument Design and Scripting Brown Bag 
+
+Jack introduced a streamlined approach to instrument design and scripting, emphasizing the efficiency of using data dictionaries over traditional Word documents. The team tackled common scripting challenges, sharing innovative solutions like pretesting and adapting multiple choice questions into yes/no formats for clearer data analysis. An interactive exercise allowed participants to apply these concepts, enhancing their skills in incorporating client feedback into instrument design. This collaborative session not only addressed technical hurdles but also fostered a shared understanding of best practices in data collection and analysis.
+
+For recordings, presentations, and any associated background material on any DST event, please visit our [Egnyte repository](https://msiworldwide.egnyte.com/navigate/folder/acca480d-c7b8-462a-8c49-508441335a6d).
+
+# Learning Bursts
+
+## Fulcrum API and Python
+
+## Ready for a learning burst?
+
+Are you itching to share your latest Python trick, dazzle us with your machine learning prowess, or maybe just delve into the intricacies of data visualization techniques? Then buckle up, because it's time for another round of Learning Bursts!
+
+These bursts of knowledge are all about YOU! Yes, YOU—the brilliant minds that make up our data science family. Whether you're a seasoned coding wizard or just dipping your toes into the vast ocean of data science, we want to hear from YOU.
+
+So, if you've got a topic burning in your brain or a cool project you've been dying to showcase, don't be shy! Shoot us a message and let's make magic happen together. Because here, every voice counts, every idea shines, and every member is a vital piece of our data science puzzle.
+
+![I would like to do a learning burst, pweez hooman](images/dog data science.jpg)
+
+# Stats corner
+
+Last issue's puzzle asked why talented actors tend to be less attractive and attractive actors tend to be less talented, even though talent and attractiveness are independent among the general population. This puzzle can be explained by the concept of **selection bias**. When we observe actors, we're looking at a selected subset of the entire population, and this selection process can create a correlation between variables that are otherwise independent in the general population.
+ 
+Here's a step-by-step explanation:
+ 
+1. **Talent and Attractiveness in the General Population**: In the general population, talent and attractiveness are independent of one another. This means that knowing someone's talent gives you no information about their attractiveness, and vice versa.
+ 
+2. **Becoming an Actor**: To become an actor, a person generally needs to have a combination of talent and attractiveness that is above a certain threshold. Both talent and attractiveness contribute to the likelihood of someone becoming an actor, but there's a trade-off. Someone who is highly talented might not need to be as attractive to become an actor, while someone who is highly attractive might not need to be as talented.
+ 
+3. **Selection Bias**: The pool of actors we observe is not a random sample of the general population. It's a group that has been selected based on a combination of talent and attractiveness. This selection process creates a negative correlation between talent and attractiveness among actors.
+ 
+4. **Trade-Off in Selection**: Because there's a trade-off in the selection process (i.e., those with high talent can "get away" with lower attractiveness and vice versa), we see a negative correlation. If you pick actors who are above a certain threshold for both traits, those with extremely high talent are likely to be less attractive on average because they didn’t need high attractiveness to meet the threshold, and those with extremely high attractiveness are likely to be less talented on average because they didn’t need high talent to meet the threshold.
+ 
+This phenomenon is a classic example of how selection bias can create correlations in a subset of data that do not exist in the broader population.
+
+::: box
+::: box-header
+Today's puzzle
+:::
+
+::: box-container
+Puzzle goes here
+
+Send all responses to [Dan Killian](dkillian@msi-inc.com)
+:::
+:::
+
+
+# Project spotlight - NMP
+
+::: columns
+::: {.column width="40%"}
+
+<!-- ![Natnael Mamuye](../viz/Natnael-Mamuye.png) -->
+
+:::
+
+::: {.column width="60%"}
+
+In this edition of Quarterly Connection, we are pleased to showcase the contributions of the Nigeria Monitoring Project (NMP)...
+
+# Member spotlight - Jack Payne
+
+# Recap: Data Science Team Quarterly Meeting
+
+The Data Science Team recently concluded its third quarterly meeting, attended by 15 members.
+
+We conducted a brief learning burst on creating Gantt Charts in R, led by Melanie Murphy. Additionally, Jack Payne introduced our Data Science Manual, presented some sections to the attendees, and gathered feedback on what would be most useful for the broader Data Science Community. 
+
+
+# Recap: GIS COP July Meeting
+
+The GIS COP hosted its bi-monthly meeting on July 2nd.
+
+- Chris Mpande - Senior GIS & Data Analyst for South Sudan MELS Project.
+  GIS-TPM Debrief application: displays snapshots of the projects TPM efforts to the mission in a          multidimensional view. 
+  - Data and metadata.
+  - Any photographs taken at the site visit. 
+  - Simple map showing the location of the site​
+
+- Masoud Nasratzada - GIS/Data Management Specialist for AMELA. 
+  ESRI's Survey123 and ArcGIS Online. 
+    - Coding surveys using XSLForms in Survey123. 
+    - How AMELA collects TPM data in the field. 
+    - Dashboards and visualization that are used to analyze and present their results to the mission​
+
+
+# Upcoming events/opportunities
+
+-   Brown bag on Power BI Part 3 - Mapping
+
+-   Brown bag on Getting Starting in GitHub
+
+-   Brown bag on DDL uploads
+
+In addition to these sessions, we'll be reaching out to project teams to schedule one-on-one consultations. This is a great opportunity to discuss your project-specific data science capabilities and needs. We’re here to help you succeed!
+
+# About the Data Science Team
+
+::: box
+::: box-header
+Overview
+:::
+
+::: box-container
+The Data Science Team (DST) is a collection of colleagues at MSI that are interested in building and practicing data analytics skills, from the basics of descriptive analytics to advanced machine learning techniques. The core members of the Data Science Team are Dan Killian, Melanie Murphy, Tim Shifflett, Gunjan Maheshwari, Jack Payne, Jacob Milley and Thomaz Alvares. Each member brings a particular expertise to ensure that the team's initiatives are in line with MSI's commitment to incorporate advanced data analytics into our work. The core team supports MSI staff by:
+
+-   Supporting staff conducting quantitative and qualitative analysis with guidance on best practice and available data sources.
+-   Helping staff learn new data science techniques and applying the techniques to existing activities.
+-   Providing trainings on the application of analyses across multiple analytical packages, as well as on core statistical concepts that underlie the analyses.
+-   Holding structured trainings on-demand, at least once per year and 4-12 brown bag sessions per year.
+-   Holding on-demand consultation with home office staff and project teams.
+-   Providing a knowledge management function for past and current data science work at MSI while ensuring everyone knows about these resources.
+
+For support or to ask questions, reach out to us on our [Teams Channel](https://teams.microsoft.com/l/channel/19%3A0c95c6fade9c4d638f660ded25507a9a%40thread.tacv2/General?groupId=175a191b-5543-4fc0-81db-926ead8863f1&tenantId=).
+:::
+:::
