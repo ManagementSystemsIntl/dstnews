@@ -84,11 +84,18 @@ Send all responses to [Dan Killian](dkillian@msi-inc.com)
 
 In this edition of Quarterly Connection, we are pleased to showcase the contributions of the Nigeria Monitoring Project (NMP)...
 
-# Member spotlight - Jack Payne
+# Member spotlight - Rohit Jayendra
+
+This month, we are excited to highlight Rohit Jayendra, the Database/GIS Specialist for the Mozambique Monitoring, Evaluation, and Learning Activity (MozMEL). Rohit recently developed an innovative Python script that codes surveys into Fulcrum, MSI's preferred mobile data collection application.
+
+His script transforms an Excel file containing various metadata - such as dataname/label, question type, and visibility conditions - into a complete survey on Fulcrum. Given that Fulcrum is MSI's most frequently used TPM application, Rohit's script significantly streamlines the survey creation process. It's especially beneficial for users familiar with XLSX-based survey platforms like ODK.
+
+Additionally, many projects create data dictionaries or codebooks for their surveys. Rohit's approach effectively converts these files into a Fulcrum tool, enhancing efficiency and usability.
+
+You can watch a recording of Rohit's demo on how to use the script to automate the instrument development process [here](https://tetratechinc.sharepoint.com/:v:/t/MSIAdvancedAnalyticsWritingGroup/EVcdiExl8CVKl4l3M4lAmM8BPHaI2uv5oZH6u4MvMcuWOg?e=Gh7Lb5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D).
 
 # Recap: Data Science Team Quarterly Meeting
 
-<<<<<<< HEAD
 The Data Science Team recently concluded its third quarterly meeting, attended by 15 members.
 
 We conducted a brief learning burst on creating Gantt Charts in R, led by Melanie Murphy. Additionally, Jack Payne introduced our Data Science Manual, presented some sections to the attendees, and gathered feedback on what would be most useful for the broader Data Science Community.
@@ -105,15 +112,6 @@ The GIS COP hosted its bi-monthly meeting on July 2nd.
     -   Coding surveys using XSLForms in Survey123.
     -   How AMELA collects TPM data in the field.
     -   Dashboards and visualization that are used to analyze and present their results to the mission​
-=======
-The data science team recently concluded its third quarterly meeting, attended by 15 members. We conducted a learning burst on creating Gantt Charts in R, led by Melanie Murphy. Additionally, Jack Payne introduced the drafted Data Science Manual to the attendees, and gathered feedback on what would be most useful for the broader Data Science Community. 
-
-
-# Recap: GIS COP July Meeting
-
-The GIS COP hosted its bi-monthly meeting on July 2nd where two of our members presented on their usage of GIS for their respective projects. The first of which was by Chris Mpande, Senior GIS & Data Analyst for MSI’s South Sudan Monitoring, Evaluation and Learning Support (MELS) Project. Chris demoed the project’s GIS-TPM Debrief application which allows the team to display snapshots of their TPM efforts to the mission. Their application showcases the data in parallel to any photographs taken at the site visit, as well as a simple map showing the location of the site which allows for a multidimensional view of the data collection. The second presentation came from Masoud Nasratzada, the GIS/Data Management Specialist for the Afghanistan Monitoring, Evaluation and Learning Activity (AMELA). He gave an in-depth presentation on ESRI's Survey123 and ArcGIS Online. He specifically focused on the different elements that come into play when coding surveys using XSLForms in Survey123, how AMELA collects TPM data in the field, and the different types of dashboards and visualization that the project has created to analyze and present their results to the mission. 
-
->>>>>>> 8b555559c8413762c64656c3cfbd57bd684de535
 
 # Upcoming events/opportunities
 
