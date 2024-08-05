@@ -90,26 +90,12 @@ In this edition of Quarterly Connection, we are pleased to showcase the contribu
 
 # Recap: Data Science Team Quarterly Meeting
 
-The Data Science Team recently concluded its third quarterly meeting, attended by 15 members.
-
-We conducted a brief learning burst on creating Gantt Charts in R, led by Melanie Murphy. Additionally, Jack Payne introduced our Data Science Manual, presented some sections to the attendees, and gathered feedback on what would be most useful for the broader Data Science Community. 
+The data science team recently concluded its third quarterly meeting, attended by 15 members. We conducted a learning burst on creating Gantt Charts in R, led by Melanie Murphy. Additionally, Jack Payne introduced the drafted Data Science Manual to the attendees, and gathered feedback on what would be most useful for the broader Data Science Community. 
 
 
 # Recap: GIS COP July Meeting
 
-The GIS COP hosted its bi-monthly meeting on July 2nd.
-
-- Chris Mpande - Senior GIS & Data Analyst for South Sudan MELS Project.
-  GIS-TPM Debrief application: displays snapshots of the projects TPM efforts to the mission in a          multidimensional view. 
-  - Data and metadata.
-  - Any photographs taken at the site visit. 
-  - Simple map showing the location of the site​
-
-- Masoud Nasratzada - GIS/Data Management Specialist for AMELA. 
-  ESRI's Survey123 and ArcGIS Online. 
-    - Coding surveys using XSLForms in Survey123. 
-    - How AMELA collects TPM data in the field. 
-    - Dashboards and visualization that are used to analyze and present their results to the mission​
+The GIS COP hosted its bi-monthly meeting on July 2nd where two of our members presented on their usage of GIS for their respective projects. The first of which was by Chris Mpande, Senior GIS & Data Analyst for MSI’s South Sudan Monitoring, Evaluation and Learning Support (MELS) Project. Chris demoed the project’s GIS-TPM Debrief application which allows the team to display snapshots of their TPM efforts to the mission. Their application showcases the data in parallel to any photographs taken at the site visit, as well as a simple map showing the location of the site which allows for a multidimensional view of the data collection. The second presentation came from Masoud Nasratzada, the GIS/Data Management Specialist for the Afghanistan Monitoring, Evaluation and Learning Activity (AMELA). He gave an in-depth presentation on ESRI's Survey123 and ArcGIS Online. He specifically focused on the different elements that come into play when coding surveys using XSLForms in Survey123, how AMELA collects TPM data in the field, and the different types of dashboards and visualization that the project has created to analyze and present their results to the mission. 
 
 
 # Upcoming events/opportunities
