@@ -24,7 +24,7 @@ source(here::here("scripts/prep.r"))
 
 # Happenings
 
-## Instrument Design and Scripting Brown Bag 
+## Instrument Design and Scripting Brown Bag
 
 Jack introduced a streamlined approach to instrument design and scripting, emphasizing the efficiency of using data dictionaries over traditional Word documents. The team tackled common scripting challenges, sharing innovative solutions like pretesting and adapting multiple choice questions into yes/no formats for clearer data analysis. An interactive exercise allowed participants to apply these concepts, enhancing their skills in incorporating client feedback into instrument design. This collaborative session not only addressed technical hurdles but also fostered a shared understanding of best practices in data collection and analysis.
 
@@ -42,22 +42,22 @@ These bursts of knowledge are all about YOU! Yes, YOU—the brilliant minds that
 
 So, if you've got a topic burning in your brain or a cool project you've been dying to showcase, don't be shy! Shoot us a message and let's make magic happen together. Because here, every voice counts, every idea shines, and every member is a vital piece of our data science puzzle.
 
-![I would like to do a learning burst, pweez hooman](images/dog data science.jpg)
+![I would like to do a learning burst, pweez hooman](images/dog%20data%20science.jpg)
 
 # Stats corner
 
 Last issue's puzzle asked why talented actors tend to be less attractive and attractive actors tend to be less talented, even though talent and attractiveness are independent among the general population. This puzzle can be explained by the concept of **selection bias**. When we observe actors, we're looking at a selected subset of the entire population, and this selection process can create a correlation between variables that are otherwise independent in the general population.
- 
+
 Here's a step-by-step explanation:
- 
-1. **Talent and Attractiveness in the General Population**: In the general population, talent and attractiveness are independent of one another. This means that knowing someone's talent gives you no information about their attractiveness, and vice versa.
- 
-2. **Becoming an Actor**: To become an actor, a person generally needs to have a combination of talent and attractiveness that is above a certain threshold. Both talent and attractiveness contribute to the likelihood of someone becoming an actor, but there's a trade-off. Someone who is highly talented might not need to be as attractive to become an actor, while someone who is highly attractive might not need to be as talented.
- 
-3. **Selection Bias**: The pool of actors we observe is not a random sample of the general population. It's a group that has been selected based on a combination of talent and attractiveness. This selection process creates a negative correlation between talent and attractiveness among actors.
- 
-4. **Trade-Off in Selection**: Because there's a trade-off in the selection process (i.e., those with high talent can "get away" with lower attractiveness and vice versa), we see a negative correlation. If you pick actors who are above a certain threshold for both traits, those with extremely high talent are likely to be less attractive on average because they didn’t need high attractiveness to meet the threshold, and those with extremely high attractiveness are likely to be less talented on average because they didn’t need high talent to meet the threshold.
- 
+
+1.  **Talent and Attractiveness in the General Population**: In the general population, talent and attractiveness are independent of one another. This means that knowing someone's talent gives you no information about their attractiveness, and vice versa.
+
+2.  **Becoming an Actor**: To become an actor, a person generally needs to have a combination of talent and attractiveness that is above a certain threshold. Both talent and attractiveness contribute to the likelihood of someone becoming an actor, but there's a trade-off. Someone who is highly talented might not need to be as attractive to become an actor, while someone who is highly attractive might not need to be as talented.
+
+3.  **Selection Bias**: The pool of actors we observe is not a random sample of the general population. It's a group that has been selected based on a combination of talent and attractiveness. This selection process creates a negative correlation between talent and attractiveness among actors.
+
+4.  **Trade-Off in Selection**: Because there's a trade-off in the selection process (i.e., those with high talent can "get away" with lower attractiveness and vice versa), we see a negative correlation. If you pick actors who are above a certain threshold for both traits, those with extremely high talent are likely to be less attractive on average because they didn’t need high attractiveness to meet the threshold, and those with extremely high attractiveness are likely to be less talented on average because they didn’t need high talent to meet the threshold.
+
 This phenomenon is a classic example of how selection bias can create correlations in a subset of data that do not exist in the broader population.
 
 ::: box
@@ -72,11 +72,9 @@ Send all responses to [Dan Killian](dkillian@msi-inc.com)
 :::
 :::
 
-
 # Project spotlight - NMP
 
-::: columns
-::: {.column width="40%"}
+::: columns ::: {.column width="40%"}
 
 <!-- ![Natnael Mamuye](../viz/Natnael-Mamuye.png) -->
 
@@ -92,25 +90,20 @@ In this edition of Quarterly Connection, we are pleased to showcase the contribu
 
 The Data Science Team recently concluded its third quarterly meeting, attended by 15 members.
 
-We conducted a brief learning burst on creating Gantt Charts in R, led by Melanie Murphy. Additionally, Jack Payne introduced our Data Science Manual, presented some sections to the attendees, and gathered feedback on what would be most useful for the broader Data Science Community. 
-
+We conducted a brief learning burst on creating Gantt Charts in R, led by Melanie Murphy. Additionally, Jack Payne introduced our Data Science Manual, presented some sections to the attendees, and gathered feedback on what would be most useful for the broader Data Science Community.
 
 # Recap: GIS COP July Meeting
 
 The GIS COP hosted its bi-monthly meeting on July 2nd.
 
-- Chris Mpande - Senior GIS & Data Analyst for South Sudan MELS Project.
-  GIS-TPM Debrief application: displays snapshots of the projects TPM efforts to the mission in a          multidimensional view. 
-  - Data and metadata.
-  - Any photographs taken at the site visit. 
-  - Simple map showing the location of the site​
-
-- Masoud Nasratzada - GIS/Data Management Specialist for AMELA. 
-  ESRI's Survey123 and ArcGIS Online. 
-    - Coding surveys using XSLForms in Survey123. 
-    - How AMELA collects TPM data in the field. 
-    - Dashboards and visualization that are used to analyze and present their results to the mission​
-
+-   Chris Mpande - Senior GIS & Data Analyst for South Sudan MELS Project. GIS-TPM Debrief application: displays snapshots of the projects TPM efforts to the mission in a multidimensional view.
+    -   Data and metadata.
+    -   Any photographs taken at the site visit.
+    -   Simple map showing the location of the site​
+-   Masoud Nasratzada - GIS/Data Management Specialist for AMELA. ESRI's Survey123 and ArcGIS Online.
+    -   Coding surveys using XSLForms in Survey123.
+    -   How AMELA collects TPM data in the field.
+    -   Dashboards and visualization that are used to analyze and present their results to the mission​
 
 # Upcoming events/opportunities
 
