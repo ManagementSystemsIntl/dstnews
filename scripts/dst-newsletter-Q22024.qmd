@@ -20,6 +20,8 @@ knitr::opts_chunk$set(autodep=T, fig.height=4, fig.width=6, warning=FALSE, messa
 
 library(here)
 source(here::here("scripts/prep.r"))
+
+library(DiagrammeR)
 ```
 
 # Happenings
@@ -50,39 +52,101 @@ So, if you've got a topic burning in your brain or a cool project you've been dy
 
 # Stats corner
 
-Last issue's puzzle asked why talented actors tend to be less attractive and attractive actors tend to be less talented, even though talent and attractiveness are independent among the general population. This puzzle can be explained by the concept of **selection bias**. When we observe actors, we're looking at a selected subset of the entire population, and this selection process can create a correlation between variables that are otherwise independent in the general population.
+Last issue's puzzle asked how there could be a negative correlation between talent and attractiveness among actors, even if both talent and attractiveness have a positive correlation with being an actor in the general population. This puzzle highlights **collider bias** in which two positive correlations in the population become a negative correlation where they interact in a subset of the population. Graphically, our example collider bias looks like this:
 
-Here's a step-by-step explanation:
+```{r}
 
-1.  **Talent and Attractiveness in the General Population**: In the general population, talent and attractiveness are independent of one another. This means that knowing someone's talent gives you no information about their attractiveness, and vice versa.
+# not run, code provided for reference
+# grViz("
+      # digraph{
+      # 
+      # graph[layout=dot, rankdir=BT, width=.2, height=.2]
+      # 
+      # node[shape=box, color='lightpink', style='filled', fontsize=8, margin=.1, size=3]
+      # A[label='Actor']
+      # 
+      # node[shape=box, color='cadetblue2', style='filled', fontsize=8]
+      # B[label='Talent']
+      # C[label='Attractiveness']
+      # 
+      # node[shape=box, color='darkseagreen1', style='filled', fontsize=8]
+      # 
+      # edge[penwidth=.6]
+      # #{B C} -> A
+      # B -> A
+      # C -> A
+      # }
+      # 
+      # ")
+```
+![](images/actor.png)
 
-2.  **Becoming an Actor**: To become an actor, a person generally needs to have a combination of talent and attractiveness that is above a certain threshold. Both talent and attractiveness contribute to the likelihood of someone becoming an actor, but there's a trade-off. Someone who is highly talented might not need to be as attractive to become an actor, while someone who is highly attractive might not need to be as talented.
+Note how the arrows going into the Actor node indicate the positive correlation. You could also use stronger causal language that talent and attractiveness are partial causes of being an actor.
 
-3.  **Selection Bias**: The pool of actors we observe is not a random sample of the general population. It's a group that has been selected based on a combination of talent and attractiveness. This selection process creates a negative correlation between talent and attractiveness among actors.
+To become an actor, a person generally needs to have a combination of talent and attractiveness that is above a certain threshold. Both talent and attractiveness contribute to the likelihood of someone becoming an actor, but there's a trade-off. Someone who is highly talented might not need to be as attractive to become an actor, while someone who is highly attractive might not need to be as talented. Because there's a trade-off in the selection process (i.e., those with high talent can "get away" with lower attractiveness and vice versa), we see a negative correlation. If you pick actors who are above a certain threshold for both traits, those with extremely high talent are less likely to be attractive on average because they didn’t need high attractiveness to meet the threshold, and those with extremely high attractiveness are less likely to be talented on average because they didn’t need high talent to meet the threshold.
 
-4.  **Trade-Off in Selection**: Because there's a trade-off in the selection process (i.e., those with high talent can "get away" with lower attractiveness and vice versa), we see a negative correlation. If you pick actors who are above a certain threshold for both traits, those with extremely high talent are likely to be less attractive on average because they didn’t need high attractiveness to meet the threshold, and those with extremely high attractiveness are likely to be less talented on average because they didn’t need high talent to meet the threshold.
+Let's see how this can work.
 
-This phenomenon is a classic example of how selection bias can create correlations in a subset of data that do not exist in the broader population.
+```{r}
+
+set.seed(342)
+n <- 1000
+talent <- rbinom(n, 1, .5) # a thousand flips of a fair coin
+attractiveness <- rbinom(n, 1, .5) # a thousand flips of a fair coin
+
+cor(talent, attractiveness) %>%
+  round(2) # correlation between talent and attractiveness
+
+```
+
+By construction, talent and attractiveness are independent of one another in the population
+
+$$Talent \perp\!\!\!\perp Attractiveness$$ Now we correlate the status of being an actor with talent and attractiveness
+
+```{r}
+actor <- rbinom(n, 1, ifelse(talent + attractiveness > 0, .9, .1)) 
+# correlate z with both x and y based on some arbitrary combination of x and y
+# since we are adding the variables together, this induces the positive correlation between each of them and being an actor
+
+cor(talent[actor==1], attractiveness[actor==1]) %>%
+  round(2) # the correlation between talent and attractiveness among actors
+
+```
+Talent and attractiveness are not independent of each other among actors, and in fact show a negative correlation. 
+
+Other examples of known colliders include smoking, obesity, and COVID-19 status. 
+
+A more common cause of bias is created by omitted variables, and we can solve the problem by including that omitted variable in our analysis. Collider bias is the opposite - it's created by inappropriately including a variable in the analysis that happens to be a collider. The solution is to NOT include that variable in your analysis.
+
+In a causal inference setting, a collider is a variable that is caused by both the treatment and the outcome.
+
+
+![Source: Catalogue of bias](images/Confounder%20and%20collider%20bias.png)
+
+Note the different direction of the arrows between omitted variable bias in the first graph, and collider bias in the second graph. 
+
+The critical learning points are to (a) learn to look out for collider variables in your work, and (b) DO NOT include collider variables in your analysis!
+
+For further study: 
+
+[Collider bias (Catalogue of Bias)](https://catalogofbias.org/biases/collider-bias/)
+
+[Collider bias (JAMA)](https://jamanetwork.com/journals/jama/fullarticle/2790247)
+
+[Collider bias in economic history research](https://eprints.lse.ac.uk/106578/)
+
+[Statistical Rethinking - Elemental Confounds (44:26-59:44)](https://www.youtube.com/watch?v=mBEA7PKDmiY&list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus&index=5) 
 
 ::: box
 ::: box-header
-Today's puzzle - The Algorithm Dilemma
+Today's puzzle 
 :::
 
 ::: box-container
-**Situation:**
 
-You are a data analyst for a popular streaming service. The company is testing two different recommendation algorithms to determine which one provides better movie recommendations for its users. The company has conducted an A/B test where users are randomly assigned to either Algorithm A or Algorithm B, and their satisfaction levels are recorded after watching recommended movies.
+Last issue's puzzle was a more difficult one, so this issue we will have an easier puzzle. 
 
-The results of the test are as follows:
-
--   Algorithm A: 70% of users reported high satisfaction.
-
--   Algorithm B: 75% of users reported high satisfaction.
-
-**Your task:**
-
-Based on the information provided, what is one factor that you should consider before concluding that Algorithm B is better than Algorithm A? State and explain the factor.
+Why was 6 afraid of 7 ?
 
 Send all responses to [Dan Killian](dkillian@msi-inc.com)
 :::
