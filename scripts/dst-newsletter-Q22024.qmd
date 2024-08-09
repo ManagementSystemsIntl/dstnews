@@ -28,7 +28,7 @@ library(DiagrammeR)
 
 ## Instrument Design and Scripting Brown Bag
 
-Jack introduced a streamlined approach to instrument design and scripting, emphasizing the efficiency of using data dictionaries over traditional Word documents. The team tackled common scripting challenges, sharing innovative solutions like pretesting and adapting multiple choice questions into yes/no formats for clearer data analysis. An interactive exercise allowed participants to apply these concepts, enhancing their skills in incorporating client feedback into instrument design. This collaborative session not only addressed technical hurdles but also fostered a shared understanding of best practices in data collection and analysis.
+Jack Payne introduced a streamlined approach to instrument design and scripting to 26 participants, emphasizing the efficiency of using data dictionaries over traditional Word documents. The team tackled common scripting challenges, sharing innovative solutions like pretesting and adapting multiple choice questions into yes/no formats for clearer data analysis. An interactive exercise allowed participants to apply these concepts, enhancing their skills in incorporating client feedback into instrument design. This collaborative session not only addressed technical hurdles but also fostered a shared understanding of best practices in data collection and analysis.
 
 For recordings, presentations, and any associated background material on any DST event, please visit our [Egnyte repository](https://msiworldwide.egnyte.com/navigate/folder/acca480d-c7b8-462a-8c49-508441335a6d).
 
@@ -79,6 +79,7 @@ Last issue's puzzle asked how there could be a negative correlation between tale
       # 
       # ")
 ```
+
 ![](images/actor.png)
 
 Note how the arrows going into the Actor node indicate the positive correlation. You could also use stronger causal language that talent and attractiveness are partial causes of being an actor.
@@ -112,22 +113,22 @@ cor(talent[actor==1], attractiveness[actor==1]) %>%
   round(2) # the correlation between talent and attractiveness among actors
 
 ```
-Talent and attractiveness are not independent of each other among actors, and in fact show a negative correlation. 
 
-Other examples of known colliders include smoking, obesity, and COVID-19 status. 
+Talent and attractiveness are not independent of each other among actors, and in fact show a negative correlation.
+
+Other examples of known colliders include smoking, obesity, and COVID-19 status.
 
 A more common cause of bias is created by omitted variables, and we can solve the problem by including that omitted variable in our analysis. Collider bias is the opposite - it's created by inappropriately including a variable in the analysis that happens to be a collider. The solution is to NOT include that variable in your analysis.
 
 In a causal inference setting, a collider is a variable that is caused by both the treatment and the outcome.
 
-
 ![Source: Catalogue of bias](images/Confounder%20and%20collider%20bias.png)
 
-Note the different direction of the arrows between omitted variable bias in the first graph, and collider bias in the second graph. 
+Note the different direction of the arrows between omitted variable bias in the first graph, and collider bias in the second graph.
 
 The critical learning points are to (a) learn to look out for collider variables in your work, and (b) DO NOT include collider variables in your analysis!
 
-For further study: 
+For further study:
 
 [Collider bias (Catalogue of Bias)](https://catalogofbias.org/biases/collider-bias/)
 
@@ -135,16 +136,15 @@ For further study:
 
 [Collider bias in economic history research](https://eprints.lse.ac.uk/106578/)
 
-[Statistical Rethinking - Elemental Confounds (44:26-59:44)](https://www.youtube.com/watch?v=mBEA7PKDmiY&list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus&index=5) 
+[Statistical Rethinking - Elemental Confounds (44:26-59:44)](https://www.youtube.com/watch?v=mBEA7PKDmiY&list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus&index=5)
 
 ::: box
 ::: box-header
-Today's puzzle 
+Today's puzzle
 :::
 
 ::: box-container
-
-Last issue's puzzle was a more difficult one, so this issue we will have an easier puzzle. 
+Last issue's puzzle was a more difficult one, so this issue we will have an easier puzzle.
 
 Why was 6 afraid of 7 ?
 
