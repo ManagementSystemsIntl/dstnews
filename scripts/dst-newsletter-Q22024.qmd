@@ -1,12 +1,12 @@
 ---
 title: "Quarterly Connection"
 subtitle: "The MSI Data Science Newsletter"
-date: "July 31, 2024"
+date: "August 9, 2024"
 description: "This document written in [Quarto](https://quarto.org), a scientific publishing<br>system compatible with R, Python, Julia, and Observable ^[Speak any of these languages? Ask us for the script]"
 title-block-banner: "#CACACA"
 format: 
   html:
-    code-fold: true
+    code-fold: false
     css: styles.css
     toc: true
     embed-resources: true
@@ -68,13 +68,9 @@ Last issue's puzzle asked how there could be a negative correlation between tale
       # node[shape=box, color='cadetblue2', style='filled', fontsize=8]
       # B[label='Talent']
       # C[label='Attractiveness']
-      # 
-      # node[shape=box, color='darkseagreen1', style='filled', fontsize=8]
-      # 
+      #
       # edge[penwidth=.6]
-      # #{B C} -> A
-      # B -> A
-      # C -> A
+      # {B C} -> A
       # }
       # 
       # ")
@@ -91,9 +87,16 @@ Let's see how this can work.
 ```{r}
 
 set.seed(342)
+
 n <- 1000
-talent <- rbinom(n, 1, .5) # a thousand flips of a fair coin
-attractiveness <- rbinom(n, 1, .5) # a thousand flips of a fair coin
+
+talent <- rbinom(n = n, 
+                 size = 1, 
+                 prob = .5) # a thousand flips of a fair coin
+
+attractiveness <- rbinom(n = n, 
+                         size = 1,
+                         prob = .5) # a thousand flips of a fair coin
 
 cor(talent, attractiveness) %>%
   round(2) # correlation between talent and attractiveness
@@ -105,7 +108,12 @@ By construction, talent and attractiveness are independent of one another in the
 $$Talent \perp\!\!\!\perp Attractiveness$$ Now we correlate the status of being an actor with talent and attractiveness
 
 ```{r}
-actor <- rbinom(n, 1, ifelse(talent + attractiveness > 0, .9, .1)) 
+
+actor <- rbinom(n = n, 
+                size = 1, 
+                prob = ifelse(test = talent + attractiveness > 0, # person is talented, attractive, or both 
+                              yes = .9, # if talented or attractive, probability of being an actor 
+                              no = .1)) # if neither talented nor attractive, probability of being an actor
 # correlate z with both x and y based on some arbitrary combination of x and y
 # since we are adding the variables together, this induces the positive correlation between each of them and being an actor
 
@@ -124,9 +132,9 @@ In a causal inference setting, a collider is a variable that is caused by both t
 
 ![Source: Catalogue of bias](images/Confounder%20and%20collider%20bias.png)
 
-Note the different direction of the arrows between omitted variable bias in the first graph, and collider bias in the second graph.
+Note the different direction of the arrows between omitted variable bias in the first graph, and collider bias in the second graph. A confounder is a variable that *causes* both the treatment and the outcome, and **should be controlled for** in your analysis. A collider is a variable that *is caused by* both the treatment and the outcome, and **should not be controlled for** in your analysis. 
 
-The critical learning points are to (a) learn to look out for collider variables in your work, and (b) DO NOT include collider variables in your analysis!
+The critical action points are to (a) learn to look out for collider variables in your work, and (b) DO NOT include collider variables in your analysis!
 
 For further study:
 
