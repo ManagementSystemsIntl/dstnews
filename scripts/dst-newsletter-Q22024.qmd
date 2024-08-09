@@ -52,7 +52,7 @@ So, if you've got a topic burning in your brain or a cool project you've been dy
 
 # Stats corner
 
-Last issue's puzzle asked how there could be a negative correlation between talent and attractiveness among actors, even if both talent and attractiveness have a positive correlation with being an actor in the general population. This puzzle highlights **collider bias** in which two positive correlations in the population become a negative correlation where they interact in a subset of the population. Graphically, our example collider bias looks like this:
+Last issue's puzzle asked how there could be a negative correlation between talent and attractiveness among actors, even if both talent and attractiveness have a positive correlation with being an actor in the general population. This puzzle highlights **collider bias** in which two positive correlations in the population become a negative correlation where they interact in a subset of the population. Graphically, our example of collider bias looks like this:
 
 ```{r}
 
