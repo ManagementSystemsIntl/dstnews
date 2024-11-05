@@ -1,0 +1,119 @@
+---
+title: "Quarterly Connection"
+subtitle: "The MSI Data Science Newsletter"
+date: "November 18, 2024"
+description: "This document written in [Quarto](https://quarto.org), a scientific publishing<br>system compatible with R, Python, Julia, and Observable ^[Speak any of these languages? Ask us for the script]"
+title-block-banner: "#CACACA"
+format: 
+  html:
+    code-fold: false
+    css: styles.css
+    toc: true
+    embed-resources: true
+    smooth-scroll: true
+---
+
+```{r global_options, include=F, warning=F, message=F, echo=F, error=F}
+
+# standard figure size and generate clean output
+knitr::opts_chunk$set(autodep=T, fig.height=4, fig.width=6, warning=FALSE, message=FALSE, cache=TRUE, error=T, echo=FALSE)
+
+library(here)
+source(here::here("scripts/prep.r"))
+
+```
+
+# Happenings
+
+## Brown Bags
+
+## Learning Bursts
+
+## Data Science Team Quarterly Meeting
+
+## GIS Community of Practice
+
+## Upcoming Events
+
+# Stats Corner
+
+::::: box
+::: box-header
+Today's puzzle
+:::
+
+::: box-container
+Send all responses to [Dan Killian](dkillian@msi-inc.com)
+:::
+:::::
+
+# Project Spotlight
+
+# Member Spotlight
+
+# About the Data Science Team
+
+::::: box
+::: box-header
+Overview
+:::
+
+::: box-container
+The Data Science Team (DST) is a collection of colleagues at MSI that are interested in building and practicing data analytics skills, from the basics of descriptive analytics to advanced machine learning techniques. The core members of the Data Science Team are Dan Killian, Melanie Murphy, Tim Shifflett, Gunjan Maheshwari, Jack Payne, Jacob Milley and Thomaz Alvares. Each member brings a particular expertise to ensure that the team's initiatives are in line with MSI's commitment to incorporate advanced data analytics into our work. The core team supports MSI staff by:
+
+-   Supporting staff conducting quantitative and qualitative analysis with guidance on best practice and available data sources.
+-   Helping staff learn new data science techniques and applying the techniques to existing activities.
+-   Providing trainings on the application of analyses across multiple analytical packages, as well as on core statistical concepts that underlie the analyses.
+-   Holding structured trainings on-demand, at least once per year and 4-12 brown bag sessions per year.
+-   Holding on-demand consultation with home office staff and project teams.
+-   Providing a knowledge management function for past and current data science work at MSI while ensuring everyone knows about these resources.
+
+For support or to ask questions, reach out to us on our [Teams Channel](https://teams.microsoft.com/l/channel/19%3A0c95c6fade9c4d638f660ded25507a9a%40thread.tacv2/General?groupId=175a191b-5543-4fc0-81db-926ead8863f1&tenantId=).
+:::
+:::::
+
+# Code Help
+
+To add a link: [Text](link)
+
+To add an image: ![Text](image.png)
+
+To add bullets:
+
+-   
+
+To italize: *text*
+
+To bold: **text**
+
+To create two columns: Option 1
+
+::::: columns
+::: {.column width="40%"}
+Text Area 1
+:::
+
+::: {.column width="60%"}
+Text Area 2
+:::
+:::::
+
+To create two columns: Option 2
+
+::: {layout-ncol="2"}
+![Text](image.png) {width=50%}
+
+![Text](image.png) {width=50%}
+:::
+
+To add a box:
+
+::::: box
+::: box-header
+Header
+:::
+
+::: box-container
+Box Text
+:::
+:::::
