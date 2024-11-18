@@ -78,7 +78,7 @@ You can watch a recording of Rohit's demo on how to use the script to automate t
 
 Last issue's puzzle asked how there could be a negative correlation between talent and attractiveness among actors, even if both talent and attractiveness have a positive correlation with being an actor in the general population. This puzzle highlights **collider bias** in which two positive correlations in the population become a negative correlation where they interact in a subset of the population. Graphically, our example of collider bias looks like this:
 
-```{r}
+```{r echo = T}
 
 # not run, code provided for reference
 # grViz("
@@ -109,7 +109,7 @@ To become an actor, a person generally needs to have a combination of talent and
 
 Let's see how this can work.
 
-```{r}
+```{r echo = T}
 
 set.seed(342)
 
@@ -132,7 +132,7 @@ By construction, talent and attractiveness are independent of one another in the
 
 $$Talent \perp\!\!\!\perp Attractiveness$$ Now we correlate the status of being an actor with talent and attractiveness
 
-```{r}
+```{r echo = T}
 
 actor <- rbinom(n = n, 
                 size = 1, 
