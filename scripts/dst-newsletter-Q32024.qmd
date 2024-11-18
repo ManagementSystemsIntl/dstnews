@@ -27,7 +27,13 @@ source(here::here("scripts/prep.r"))
 
 ## Brown Bags
 
-## Learning Bursts
+## Summary of the Virtual Training on Advanced Topics in Monitoring, Evaluation, and Learning for MENA MELS
+
+The training was designed to enhance the Monitoring, Evaluation, and Learning (MEL) skills of USAID professionals, specifically addressing the unique challenges faced in the MENA region. The training included 16 short, pre-recorded videos divided into four modules, complemented by five two-hour virtual instructor-led training (VILT) sessions. Each VILT session included a recap of video topics, Q&A, interactive exercises, guest speakers, online games, and real-time polling.The training was facilitated by MSI experts Dan Killian, Thomaz Alvares de Azevedo, Melanie Murphy, Barbara Pando-Behnke, Tim Shifflett, and Jacob Milley. 
+
+The first module of the training covered MEL policy context, randomized control trials, and evaluation design, and featured a TED Talk on impact measurement in conflict zones. The second module focused on statistical matching, cost analysis, complex sampling methods, and data collection techniques in conflict areas. The third module covered advanced modeling methods for logic models and learning agendas, and included a TED Talk on Geographic Information Systems (GIS).The final module explored the use and future applications of AI, large language models, and machine learning in MEL.
+
+The data science plans to roll out DST brown bags pulling from these training topics over the next several months. 
 
 ## Data Science Team Quarterly Meeting
 
