@@ -157,7 +157,7 @@ In a causal inference setting, a collider is a variable that is caused by both t
 
 ![Source: Catalogue of bias](images/Confounder%20and%20collider%20bias.png)
 
-Note the different direction of the arrows between omitted variable bias in the first graph, and collider bias in the second graph. A confounder is a variable that *causes* both the treatment and the outcome, and **should be controlled for** in your analysis. A collider is a variable that *is caused by* both the treatment and the outcome, and **should not be controlled for** in your analysis. 
+Note the different direction of the arrows between omitted variable bias in the first graph, and collider bias in the second graph. A confounder is a variable that *causes* both the treatment and the outcome, and **should be controlled for** in your analysis. A collider is a variable that *is caused by* both the treatment and the outcome, and **should not be controlled for** in your analysis.
 
 The critical action points are to (a) learn to look out for collider variables in your work, and (b) DO NOT include collider variables in your analysis!
 
