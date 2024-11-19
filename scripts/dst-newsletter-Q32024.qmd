@@ -29,7 +29,9 @@ source(here::here("scripts/prep.r"))
 
 ## Learning Bursts
 
-## Data Science Team Quarterly Meeting
+## Project Consultations
+
+The Data Science Team recently held its first project consultation with AMELA to identify key areas for collaboration and support. The discussion focused on three priorities: conducting a trend analysis of flagged TPM data from 2019 onward, delivering tailored data analytics training to address team capacity gaps, and developing a lessons learned document centered on post-Taliban takeover activities. Sixteen AMELA staff completed the survey, detailing their existing data science capabilities and goals. As a result, the Data Science Team is now developing a tailored training program utilizing existing resources for the AMELA team. If you are interested in receiving similar support, please reach out to the Data Science Team—we look forward to connecting with your project teams soon!
 
 ## GIS Community of Practice
 
