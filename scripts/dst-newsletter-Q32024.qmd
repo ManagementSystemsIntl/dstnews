@@ -43,7 +43,7 @@ The Data Science Team recently held its first project consultation with AMELA to
 
 ## Introduction to Bayesian Analysis Brown Bag
 
-The Brown bag on Introduction to Bayesian Analysis was held on November 16, 2024. Dan introduced the concept of Bayesian analysis, explaining its foundational importance for analysts and its practical application.
+The Brown bag on Introduction to Bayesian Analysis was held on November 6, 2024. Dan introduced the concept of Bayesian analysis, explaining its foundational importance for analysts and its practical application.
 
 The session focused on the concept of Bayesian analysis, highlighting its foundational importance for analysts and its practical applications. The session served as a dry run for client deliverables, including an introduction to Bayesian analysis and an engaging example to stimulate critical thinking. Key topics discussed included the derivation of Bayes' rule using Venn diagrams, basic probability concepts, and the distinction between Bayesian and frequency analysis through a treatment effect example. The application of Bayesian analysis in inferential analysis was emphasized, illustrating how it can be used to estimate relationships between variables and update beliefs based on observed data. Real-world applications were also explored, including setting priors, evaluating evidence, and updating beliefs, with an illustrative example involving the probability of alien life. Additionally, the session addressed the use of Bayesian networks and causal modeling in attaching probabilities to different scenarios for data-driven decision-making. Follow-up tasks were identified, including gathering feedback on the presentation and selecting examples for future client presentations.
 
