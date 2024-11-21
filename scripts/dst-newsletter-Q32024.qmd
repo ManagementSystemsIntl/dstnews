@@ -43,7 +43,7 @@ The Data Science Team recently held its first project consultation with AMELA to
 
 ## Introduction to Bayesian Analysis Brown Bag
 
-The Brown bag on Introduction to Bayesian Analysis was held on November 16, 2024. Dan introduced the concept of Bayesian analysis, explaining its foundational importance for analysts and its practical application.
+The Brown bag on Introduction to Bayesian Analysis was held on November 6, 2024. Dan introduced the concept of Bayesian analysis, explaining its foundational importance for analysts and its practical application.
 
 The session focused on the concept of Bayesian analysis, highlighting its foundational importance for analysts and its practical applications. The session served as a dry run for client deliverables, including an introduction to Bayesian analysis and an engaging example to stimulate critical thinking. Key topics discussed included the derivation of Bayes' rule using Venn diagrams, basic probability concepts, and the distinction between Bayesian and frequency analysis through a treatment effect example. The application of Bayesian analysis in inferential analysis was emphasized, illustrating how it can be used to estimate relationships between variables and update beliefs based on observed data. Real-world applications were also explored, including setting priors, evaluating evidence, and updating beliefs, with an illustrative example involving the probability of alien life. Additionally, the session addressed the use of Bayesian networks and causal modeling in attaching probabilities to different scenarios for data-driven decision-making. Follow-up tasks were identified, including gathering feedback on the presentation and selecting examples for future client presentations.
 
@@ -51,7 +51,12 @@ The session focused on the concept of Bayesian analysis, highlighting its founda
 
 ## Development Data Library Compliance Brown Bag
 
-The session of Development Data Library 
+The Brown Bag session on Development Data Library (DDL) Compliance took place on September 26, 2024, led by Adam Weber. The session focused on key terms related to uploading final datasets to the DDL, a USAID-funded repository for storing data related to USAID projects. Adam provided a live demonstration on creating an account in the DDL and how to create a data asset. He also reviewed essential checklists for uploads, which include required documents such as codebooks and consent forms.
+
+Resources
+[Recording](https://tetratechinc-my.sharepoint.com/:v:/g/personal/gunjan_maheshwari_tetratech_com/EXUxO2hurhBBhmaOnb-EjYEBw_KVzSx5Ga4FjdnJO4ZAlw?e=cLwnCu)
+[Presentation](https://msiworldwide.egnyte.com/dl/xAmv44GzXY)
+[Folder to access resources](https://msiworldwide.egnyte.com/fl/zxJO32K1bn)
 
 ## Upcoming Events
 - Continue project consultations 
