@@ -27,6 +27,7 @@ source(here::here("scripts/prep.r"))
 
 ## Brown Bags
 
+<<<<<<< HEAD
 ## Introduction to Bayesian Analysis
 
 The Brown bag on Introduction to Bayesian Analysis was held on November 16, 2024. Dan introduced the concept of Bayesian analysis, explaining its foundational importance for analysts and its practical application.
@@ -39,6 +40,8 @@ The session focused on the concept of Bayesian analysis, highlighting its founda
 
 The session of Development Data Library 
 
+=======
+>>>>>>> 2bf61a5eea92d103a8571a2972cd0ee5e4ed1777
 ## Summary of the Virtual Training on Advanced Topics in Monitoring, Evaluation, and Learning for MENA MELS
 
 The training was designed to enhance the Monitoring, Evaluation, and Learning (MEL) skills of USAID professionals, specifically addressing the unique challenges faced in the MENA region. The training included 16 short, pre-recorded videos divided into four modules, complemented by five two-hour virtual instructor-led training (VILT) sessions. Each VILT session included a recap of video topics, Q&A, interactive exercises, guest speakers, online games, and real-time polling.The training was facilitated by MSI experts Dan Killian, Thomaz Alvares de Azevedo, Melanie Murphy, Barbara Pando-Behnke, Tim Shifflett, and Jacob Milley. 
@@ -49,9 +52,17 @@ The data science plans to roll out DST brown bags pulling from these training to
 
 ## Project Consultations
 
-The Data Science Team recently held its first project consultation with AMELA to identify key areas for collaboration and support. The discussion focused on three priorities: conducting a trend analysis of flagged TPM data from 2019 onward, delivering tailored data analytics training to address team capacity gaps, and developing a lessons learned document centered on post-Taliban takeover activities. Sixteen AMELA staff completed the survey, detailing their existing data science capabilities and goals. As a result, the Data Science Team is now developing a tailored training program utilizing existing resources for the AMELA team. If you are interested in receiving similar support, please reach out to the Data Science Team—we look forward to connecting with your project teams soon!
-
-## GIS Community of Practice
+The Data Science Team recently held its first project consultation with AMELA to 
+identify key areas for collaboration and support. The discussion focused on 
+three priorities: conducting a trend analysis of flagged TPM data from 2019
+onward, delivering tailored data analytics training to address team capacity 
+gaps, and developing a lessons learned document centered on post-Taliban 
+takeover activities. Sixteen AMELA staff completed the survey, detailing their
+existing data science capabilities and goals. As a result, 
+the Data Science Team is now developing a tailored training program 
+utilizing existing resources for the AMELA team. If you are interested 
+in receiving similar support, please reach out to the Data Science Team
+— we look forward to connecting with your project teams soon!
 
 ## Upcoming Events
 
@@ -63,6 +74,17 @@ Today's puzzle
 :::
 
 ::: box-container
+The Missing Men in STEM
+
+Imagine a prestigious university with a strong STEM (science, technology, engineering, and mathematics) program. Admission decisions are based solely on standardized test scores, which are entirely unbiased and designed to measure aptitude. Historically, 60% of applicants are female, and 40% are male. However, after the admissions process, 70% of admitted students are female, and 30% are male.
+
+When analyzing the data, you find:
+
+- Male and female applicants have identical average test scores.
+- The standard deviation of scores is also identical for both groups.
+
+If the test scores and admission criteria are unbiased, why are males underrepresented among admitted students?
+
 Send all responses to [Dan Killian](dkillian@msi-inc.com)
 :::
 :::::
