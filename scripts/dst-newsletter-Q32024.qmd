@@ -51,7 +51,7 @@ The session focused on the concept of Bayesian analysis, highlighting its founda
 
 ## Development Data Library Compliance Brown Bag
 
-The Brown Bag session on Development Data Library (DDL) Compliance took place on September 22, 2024, led by Adam Weber. The session focused on key terms related to uploading final datasets to the DDL, a USAID-funded repository for storing data related to USAID projects. Adam provided a live demonstration on creating an account in the DDL and how to create a data asset. He also reviewed essential checklists for uploads, which include required documents such as codebooks and consent forms.
+The Brown Bag session on Development Data Library (DDL) Compliance took place on September 26, 2024, led by Adam Weber. The session focused on key terms related to uploading final datasets to the DDL, a USAID-funded repository for storing data related to USAID projects. Adam provided a live demonstration on creating an account in the DDL and how to create a data asset. He also reviewed essential checklists for uploads, which include required documents such as codebooks and consent forms.
 
 Resources
 [Recording](https://tetratechinc-my.sharepoint.com/:v:/g/personal/gunjan_maheshwari_tetratech_com/EXUxO2hurhBBhmaOnb-EjYEBw_KVzSx5Ga4FjdnJO4ZAlw?e=cLwnCu)
