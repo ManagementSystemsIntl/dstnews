@@ -85,7 +85,7 @@ Send all responses to [Jack Payne](jack.payne@msi-inc.com)
 :::
 :::::
 
-# About the Data Science Team {.sidebar}
+# About the Data Science Team 
 
 The Data Science Team (DST) is a collection of colleagues at MSI that are interested in building and practicing data analytics skills, from the basics of descriptive analytics to advanced machine learning techniques. The core members of the Data Science Team are Dan Killian, Melanie Murphy, Tim Shifflett, Gunjan Maheshwari, Jack Payne, Jacob Milley and Thomaz Alvares. Each member brings a particular expertise to ensure that the team's initiatives are in line with MSI's commitment to incorporate advanced data analytics into our work. The core team supports MSI staff by:
 
