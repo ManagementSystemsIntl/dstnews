@@ -59,7 +59,8 @@ Resources
 [Folder to access resources](https://msiworldwide.egnyte.com/fl/zxJO32K1bn)
 
 ## Upcoming Events
-
+- Continue project consultations 
+- Intro to GitHub training
 
 # Stats Corner
 
@@ -80,11 +81,11 @@ When analyzing the data, you find:
 
 If the test scores and admission criteria are unbiased, why are males underrepresented among admitted students?
 
-Send all responses to [Dan Killian](dkillian@msi-inc.com)
+Send all responses to [Jack Payne](jack.payne@msi-inc.com)
 :::
 :::::
 
-# About the Data Science Team
+# About the Data Science Team 
 
 ::::: box
 ::: box-header
@@ -102,51 +103,5 @@ The Data Science Team (DST) is a collection of colleagues at MSI that are intere
 -   Providing a knowledge management function for past and current data science work at MSI while ensuring everyone knows about these resources.
 
 For support or to ask questions, reach out to us on our [Teams Channel](https://teams.microsoft.com/l/channel/19%3A0c95c6fade9c4d638f660ded25507a9a%40thread.tacv2/General?groupId=175a191b-5543-4fc0-81db-926ead8863f1&tenantId=).
-:::
-:::::
-
-# Code Help
-
-To add a link: [Text](link)
-
-To add an image: ![Text](image.png)
-
-To add bullets:
-
--   
-
-To italize: *text*
-
-To bold: **text**
-
-To create two columns: Option 1
-
-::::: columns
-::: {.column width="40%"}
-Text Area 1
-:::
-
-::: {.column width="60%"}
-Text Area 2
-:::
-:::::
-
-To create two columns: Option 2
-
-::: {layout-ncol="2"}
-![Text](image.png) {width=50%}
-
-![Text](image.png) {width=50%}
-:::
-
-To add a box:
-
-::::: box
-::: box-header
-Header
-:::
-
-::: box-container
-Box Text
 :::
 :::::
