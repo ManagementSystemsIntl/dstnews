@@ -33,14 +33,17 @@ The Brown bag on Introduction to Bayesian Analysis was held on November 16, 2024
 
 The session focused on the concept of Bayesian analysis, highlighting its foundational importance for analysts and its practical applications. The session served as a dry run for client deliverables, including an introduction to Bayesian analysis and an engaging example to stimulate critical thinking. Key topics discussed included the derivation of Bayes' rule using Venn diagrams, basic probability concepts, and the distinction between Bayesian and frequency analysis through a treatment effect example. The application of Bayesian analysis in inferential analysis was emphasized, illustrating how it can be used to estimate relationships between variables and update beliefs based on observed data. Real-world applications were also explored, including setting priors, evaluating evidence, and updating beliefs, with an illustrative example involving the probability of alien life. Additionally, the session addressed the use of Bayesian networks and causal modeling in attaching probabilities to different scenarios for data-driven decision-making. Follow-up tasks were identified, including gathering feedback on the presentation and selecting examples for future client presentations.
 
-
 ## Summary of the Virtual Training on Advanced Topics in Monitoring, Evaluation, and Learning for MENA MELS
 
-The training was designed to enhance the Monitoring, Evaluation, and Learning (MEL) skills of USAID professionals, specifically addressing the unique challenges faced in the MENA region. The training included 16 short, pre-recorded videos divided into four modules, complemented by five two-hour virtual instructor-led training (VILT) sessions. Each VILT session included a recap of video topics, Q&A, interactive exercises, guest speakers, online games, and real-time polling.The training was facilitated by MSI experts Dan Killian, Thomaz Alvares de Azevedo, Melanie Murphy, Barbara Pando-Behnke, Tim Shifflett, and Jacob Milley. 
+The training was designed to enhance the Monitoring, Evaluation, and Learning (MEL) skills of USAID professionals, specifically addressing the unique challenges faced in the MENA region. The training included 16 short, pre-recorded videos divided into four modules, complemented by five two-hour virtual instructor-led training (VILT) sessions. Each VILT session included a recap of video topics, Q&A, interactive exercises, guest speakers, online games, and real-time polling. The training was facilitated by MSI experts Dan Killian, Thomaz Alvares de Azevedo, Melanie Murphy, Barbara Pando-Behnke, Tim Shifflett, and Jacob Milley. 
 
 The first module of the training covered MEL policy context, randomized control trials, and evaluation design, and featured a TED Talk on impact measurement in conflict zones. The second module focused on statistical matching, cost analysis, complex sampling methods, and data collection techniques in conflict areas. The third module covered advanced modeling methods for logic models and learning agendas, and included a TED Talk on Geographic Information Systems (GIS).The final module explored the use and future applications of AI, large language models, and machine learning in MEL.
 
-The data science plans to roll out DST brown bags pulling from these training topics over the next several months. 
+The data science team plans to roll out DST brown bags pulling from these training topics over the next several months. Training videos are found [here](https://www.youtube.com/playlist?list=PLHwXAdVj07tsPrPqtiXY3a68vEc2OImkQ).
+
+## Publication Highlight: Pathways to reading comprehension in Amharic vary by reading profile
+
+Thomaz Alvares from MSI and Marcia Davidson from the USAID Africa Bureau recently published their research on how ["Pathways to reading comprehension in Amharic vary by reading profile"](https://link.springer.com/article/10.1007/s11145-024-10584-x). This article contributes to the Simple View of Reading (SVR) literature by using advanced analytics to validate the SVR framework for an understudied branch of writing systems, and by strengthening the broader base of evidence that print decoding skill plays a more dominant role than language knowledge in the early stages of reading comprehension development. The article also discusses that L2 status should play a substantial role in reading interventions in multilingual contexts, and it raises awareness among policymakers about the potential uses of data-driven classification approaches for evaluating both the start state and the differing effects of interventions within different subpopulations of learners. 
 
 ## Project Consultations
 
@@ -49,6 +52,8 @@ The Data Science Team recently held its first project consultation with AMELA to
 ## GIS Community of Practice
 
 ## Upcoming Events
+
+
 
 # Stats Corner
 
