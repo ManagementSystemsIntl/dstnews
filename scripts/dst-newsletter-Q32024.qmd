@@ -58,9 +58,13 @@ Resources
 [Presentation](https://msiworldwide.egnyte.com/dl/xAmv44GzXY)
 [Folder to access resources](https://msiworldwide.egnyte.com/fl/zxJO32K1bn)
 
+## Recap: GIS COP September Meeting
+On September 5th we hosted our bi-monthly GIS COP with 18 attendees, including folks from home office and our project offices. This meeting was highlighted by an insightful presentation from William Uuci, the GIS & Database Manager for MSI’s Central Africa Regional Third-Party Monitoring (CART) Project which operates in the Central African Republic, Republic of Congo, and Democratic Republic of Congo. William introduced the various ways the project uses GIS including the different types of maps they produce on a regular basis, what datasets they typically use and where they get that data from. He displayed some of his recent work such as TPM Site Visits maps, security accident maps, and planning maps for ETPM reports and quarterly/annual reports. He spoke about how CART uses the data collection tool SurveyToGo to conduct their Site Visits and then uses the subsequent data in their visualizations. Lastly, William showcased the interactive dashboard built using Power BI and Mapbox, which allows users to filter information, view site visit details, and monitor hot button issues. The dashboard is used for both internal and external purposes, with access provided to BHA staff and donors. Thanks to William for this great presentation!
+
 ## Upcoming Events
 - Continue project consultations 
 - Intro to GitHub training
+  - GitHub is a web-based platform for version control and collaborative software development, allowing users to store, manage, and share code projects using Git, and it is fully compatible with programming languages like R and Python, enabling seamless integration with tools like RStudio, Jupyter Notebooks, and various IDEs.
 
 # Stats Corner
 
