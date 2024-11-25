@@ -1,0 +1,225 @@
+---
+title: "Quarterly Connection"
+subtitle: "The MSI Data Science Newsletter"
+date: "August 9, 2024"
+description: "This document written in [Quarto](https://quarto.org), a scientific publishing<br>system compatible with R, Python, Julia, and Observable ^[Speak any of these languages? Ask us for the script]"
+title-block-banner: "#CACACA"
+format: 
+  html:
+    code-fold: false
+    css: styles.css
+    toc: true
+    embed-resources: true
+    smooth-scroll: true
+---
+
+```{r global_options, include=F, warning=F, message=F, echo=F, error=F}
+
+# standard figure size and generate clean output
+knitr::opts_chunk$set(autodep=T, fig.height=4, fig.width=6, warning=FALSE, message=FALSE, cache=TRUE, error=T, echo=FALSE)
+
+library(here)
+source(here::here("scripts/prep.r"))
+
+library(DiagrammeR)
+```
+
+# Happenings
+
+## Instrument Design and Scripting Brown Bag
+
+Jack Payne introduced a streamlined approach to instrument design and scripting to 26 participants, emphasizing the efficiency of using data dictionaries over traditional Word documents. The team tackled common scripting challenges, sharing innovative solutions like pretesting and adapting multiple choice questions into yes/no formats for clearer data analysis. An interactive exercise allowed participants to apply these concepts, enhancing their skills in incorporating client feedback into instrument design. This collaborative session not only addressed technical hurdles but also fostered a shared understanding of best practices in data collection and analysis.
+
+For recordings, presentations, and any associated background material on any DST event, please visit our [Egnyte repository](https://msiworldwide.egnyte.com/navigate/folder/acca480d-c7b8-462a-8c49-508441335a6d).
+
+# Learning Bursts
+
+## Fulcrum API and Python
+
+On May 10, Data and Information Management Specialist Andres Triana Reina walked us through how to develop a script in Python (and R) that will extract data from Fulcrum and save it to your local machine. This eliminates the process of manually exporting Fulcrum forms and replaces it by simply executing your code to do it for you (very quickly)!
+
+If you are interested in learning how to adopt this process for any of your projects, please reach out to [Andres](ANDRES.TRIANAREINA@msi-inc.com) or [Melanie Murphy](melanie.murphy@msi-inc.com) for an example script.
+
+## Ready for a learning burst?
+
+Are you itching to share your latest Python trick, dazzle us with your machine learning prowess, or maybe just delve into the intricacies of data visualization techniques? Then buckle up, because it's time for another round of Learning Bursts!
+
+These bursts of knowledge are all about YOU! Yes, YOU—the brilliant minds that make up our data science family. Whether you're a seasoned coding wizard or just dipping your toes into the vast ocean of data science, we want to hear from YOU.
+
+So, if you've got a topic burning in your brain or a cool project you've been dying to showcase, don't be shy! Shoot us a message and let's make magic happen together. Because here, every voice counts, every idea shines, and every member is a vital piece of our data science puzzle.
+
+![I would like to do a learning burst, pweez hooman](images/dog%20data%20science.jpg)
+
+# Project spotlight - Nigeria Monitoring Project
+
+In this issue, we are excited to highlight several data science initiatives from the Nigeria Monitoring Project (NMP) spanning 2019 to 2024. This project provided third-party monitoring (TPM) services to assess, verify, and analyze trends in the Bureau of Humanitarian Assistance (BHA) programs in three northeastern states of Nigeria. NMP monitored 20 sites each month across various sectors, including WASH, nutrition, food assistance, health, shelter and settlements, protection, and warehouse and commodity management.
+
+A standout feature of NMP was its interactive Monitoring Dashboard. This platform, accessible to USAID and IP staff, offered site-specific data, a calendar view of planned site visits, summaries of flagged questions, and a data explorer, ensuring that vital information was always at their fingertips.
+
+In 2020, NMP introduced the "Monitoring Index," a new methodology to summarize monitoring data by TPM theme. This index used color-coded scoring to illustrate sector-level performance, allowing for quick identification of areas not meeting performance benchmarks. NMP also automated data cleaning and analysis processes, significantly increasing the speed and efficiency of their work. Some of these advancements have since been adopted or adapted by other MSI projects.
+
+In 2023, NMP conducted a special study to test the use of an image segmentation model with an artificial intelligence (AI) application on four warehouses. This Tetra Tech proprietary product, previously used for infrastructure assessments like building safety inspections and wastewater treatment plant evaluations, was a first for BHA's TPM efforts. The innovative study's results were widely shared, with Carolyn Fonseca discussing the use of AI in monitoring and evaluation on the [European Evaluation Society's EvalEdge Podcast](https://soundcloud.com/europeanevaluationsociety/evaledge-ep21-ai-monitoring-evaluation-in-challenging-environments).
+
+As NMP approached its close, the data science team recognizes their invaluable contributions to MSI and extend heartfelt thanks to the entire team for their dedication to advancing data science. Your hard work and innovation have set a new standard in monitoring and evaluation, and we look forward to seeing the lasting impact of your achievements.
+
+![NMP Team Photo](../viz/NMP%20team.png)
+
+# Member spotlight - Rohit Jayendra
+
+This month, we are excited to highlight Rohit Jayendra, the Database/GIS Specialist for the Mozambique Monitoring, Evaluation, and Learning Activity (MozMEL). Rohit recently developed an innovative Python script that codes surveys into Fulcrum, MSI's preferred mobile data collection application.
+
+His script transforms an Excel file containing various metadata - such as dataname/label, question type, and visibility conditions - into a complete survey on Fulcrum. Given that Fulcrum is MSI's most frequently used TPM data collection application, Rohit's script significantly streamlines the survey creation process. It's especially beneficial for users familiar with XLSX-based survey platforms like ODK.
+
+Additionally, many projects create data dictionaries or codebooks for their surveys. Rohit's approach effectively converts these files into a Fulcrum tool, enhancing efficiency and usability.
+
+You can watch a recording of Rohit's demo on how to use the script to automate the instrument development process [here](https://tetratechinc.sharepoint.com/:v:/t/MSIAdvancedAnalyticsWritingGroup/EVcdiExl8CVKl4l3M4lAmM8BPHaI2uv5oZH6u4MvMcuWOg?e=Gh7Lb5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D).
+
+# Stats corner
+
+Last issue's puzzle asked how there could be a negative correlation between talent and attractiveness among actors, even if both talent and attractiveness have a positive correlation with being an actor in the general population. This puzzle highlights **collider bias** in which two positive correlations in the population become a negative correlation where they interact in a subset of the population. Graphically, our example of collider bias looks like this:
+
+```{r echo = T}
+
+# not run, code provided for reference
+# grViz("
+      # digraph{
+      # 
+      # graph[layout=dot, rankdir=BT, width=.2, height=.2]
+      # 
+      # node[shape=box, color='lightpink', style='filled', fontsize=8, margin=.1, size=3]
+      # A[label='Actor']
+      # 
+      # node[shape=box, color='cadetblue2', style='filled', fontsize=8]
+      # B[label='Talent']
+      # C[label='Attractiveness']
+      #
+      # edge[penwidth=.6]
+      # {B C} -> A
+      # }
+      # 
+      # ")
+
+```
+
+![](images/actor.png)
+
+Note how the arrows going into the Actor node indicate the positive correlation. You could also use stronger causal language that talent and attractiveness are partial causes of being an actor.
+
+To become an actor, a person generally needs to have a combination of talent and attractiveness that is above a certain threshold. Both talent and attractiveness contribute to the likelihood of someone becoming an actor, but there's a trade-off. Someone who is highly talented might not need to be as attractive to become an actor, while someone who is highly attractive might not need to be as talented. Because there's a trade-off in the selection process (i.e., those with high talent can "get away" with lower attractiveness and vice versa), we see a negative correlation. If you pick actors who are above a certain threshold for both traits, those with extremely high talent are less likely to be attractive on average because they didn’t need high attractiveness to meet the threshold, and those with extremely high attractiveness are less likely to be talented on average because they didn’t need high talent to meet the threshold.
+
+Let's see how this can work.
+
+```{r echo = T}
+
+set.seed(342)
+
+n <- 1000
+
+talent <- rbinom(n = n, 
+                 size = 1, 
+                 prob = .5) # a thousand flips of a fair coin
+
+attractiveness <- rbinom(n = n, 
+                         size = 1,
+                         prob = .5) # a thousand flips of a fair coin
+
+cor(talent, attractiveness) %>%
+  round(2) # correlation between talent and attractiveness
+
+```
+
+By construction, talent and attractiveness are independent of one another in the population
+
+$$Talent \perp\!\!\!\perp Attractiveness$$ Now we correlate the status of being an actor with talent and attractiveness
+
+```{r echo = T}
+
+actor <- rbinom(n = n, 
+                size = 1, 
+                prob = ifelse(test = talent + attractiveness > 0, # person is talented, attractive, or both 
+                              yes = .9, # if talented or attractive, probability of being an actor 
+                              no = .1)) # if neither talented nor attractive, probability of being an actor
+# correlate z with both x and y based on some arbitrary combination of x and y
+# since we are adding the variables together, this induces the positive correlation between each of them and being an actor
+
+cor(talent[actor==1], attractiveness[actor==1]) %>%
+  round(2) # the correlation between talent and attractiveness among actors
+
+```
+
+Talent and attractiveness are not independent of each other among actors, and in fact show a negative correlation.
+
+Other examples of known colliders include smoking, obesity, and COVID-19 status.
+
+A more common cause of bias is created by omitted variables, and we can solve the problem by including that omitted variable in our analysis. Collider bias is the opposite - it's created by inappropriately including a variable in the analysis that happens to be a collider. The solution is to NOT include that variable in your analysis.
+
+In a causal inference setting, a collider is a variable that is caused by both the treatment and the outcome.
+
+![Source: Catalogue of bias](images/Confounder%20and%20collider%20bias.png)
+
+Note the different direction of the arrows between omitted variable bias in the first graph, and collider bias in the second graph. A confounder is a variable that *causes* both the treatment and the outcome, and **should be controlled for** in your analysis. A collider is a variable that *is caused by* both the treatment and the outcome, and **should not be controlled for** in your analysis.
+
+The critical action points are to (a) learn to look out for collider variables in your work, and (b) DO NOT include collider variables in your analysis!
+
+For further study:
+
+[Collider bias (Catalogue of Bias)](https://catalogofbias.org/biases/collider-bias/)
+
+[Collider bias (JAMA)](https://jamanetwork.com/journals/jama/fullarticle/2790247)
+
+[Collider bias in economic history research](https://eprints.lse.ac.uk/106578/)
+
+[Statistical Rethinking - Elemental Confounds (44:26-59:44)](https://www.youtube.com/watch?v=mBEA7PKDmiY&list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus&index=5)
+
+::: box
+::: box-header
+Today's puzzle
+:::
+
+::: box-container
+Last issue's puzzle was a more difficult one, so this issue we will have an easier puzzle.
+
+Why was 6 afraid of 7 ?
+
+Send all responses to [Dan Killian](dkillian@msi-inc.com)
+:::
+:::
+
+# Recap: Data Science Team Quarterly Meeting
+
+The data science team recently concluded its third quarterly meeting, attended by 15 members. We conducted a learning burst on creating Gantt Charts in R, led by Melanie Murphy. Additionally, Jack Payne introduced our Data Science Manual to attendees, and gathered feedback on what would be most useful for the broader Data Science Community.
+
+# Recap: GIS COP July Meeting
+
+The GIS COP hosted its bi-monthly meeting on July 2nd where two of our members presented on their usage of GIS for their respective projects. The first of which was by Chris Mpande, Senior GIS & Data Analyst for MSI’s South Sudan Monitoring, Evaluation and Learning Support (MELS) Project. Chris demoed the project’s GIS-TPM Debrief application which allows the team to display snapshots of their TPM efforts to the mission. Their application showcases the data in parallel to any photographs taken at the site visit, as well as a simple map showing the location of the site which allows for a multidimensional view of the data collection. The second presentation came from Masoud Nasratzada, the GIS/Data Management Specialist for the Afghanistan Monitoring, Evaluation and Learning Activity (AMELA). He gave an in-depth presentation on ESRI's Survey123 and ArcGIS Online. He specifically focused on the different elements that come into play when coding surveys using XSLForms in Survey123, how AMELA collects TPM data in the field, and the different types of dashboards and visualization that the project has created to analyze and present their results to the mission.
+
+# Upcoming events/opportunities
+
+-   Brown bag on Power BI Part 3 - Mapping
+
+-   Brown bag on Getting Starting in GitHub
+
+-   Brown bag on DDL uploads
+
+In addition to these sessions, we'll be reaching out to project teams to schedule one-on-one consultations. This is a great opportunity to discuss your project-specific data science capabilities and needs. We’re here to help you succeed!
+
+# About the Data Science Team
+
+::: box
+::: box-header
+Overview
+:::
+
+::: box-container
+The Data Science Team (DST) is a collection of colleagues at MSI that are interested in building and practicing data analytics skills, from the basics of descriptive analytics to advanced machine learning techniques. The core members of the Data Science Team are Dan Killian, Melanie Murphy, Tim Shifflett, Gunjan Maheshwari, Jack Payne, Jacob Milley and Thomaz Alvares. Each member brings a particular expertise to ensure that the team's initiatives are in line with MSI's commitment to incorporate advanced data analytics into our work. The core team supports MSI staff by:
+
+-   Supporting staff conducting quantitative and qualitative analysis with guidance on best practice and available data sources.
+-   Helping staff learn new data science techniques and applying the techniques to existing activities.
+-   Providing trainings on the application of analyses across multiple analytical packages, as well as on core statistical concepts that underlie the analyses.
+-   Holding structured trainings on-demand, at least once per year and 4-12 brown bag sessions per year.
+-   Holding on-demand consultation with home office staff and project teams.
+-   Providing a knowledge management function for past and current data science work at MSI while ensuring everyone knows about these resources.
+
+For support or to ask questions, reach out to us on our [Teams Channel](https://teams.microsoft.com/l/channel/19%3A0c95c6fade9c4d638f660ded25507a9a%40thread.tacv2/General?groupId=175a191b-5543-4fc0-81db-926ead8863f1&tenantId=).
+:::
+:::

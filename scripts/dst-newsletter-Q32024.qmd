@@ -1,0 +1,110 @@
+---
+title: "Quarterly Connection"
+subtitle: "The MSI Data Science Newsletter"
+date: "November 25, 2024"
+description: "This document written in [Quarto](https://quarto.org), a scientific publishing<br>system compatible with R, Python, Julia, and Observable ^[Speak any of these languages? Ask us for the script]"
+title-block-banner: "#CACACA"
+format: 
+  html:
+    code-fold: false
+    css: styles.css
+    toc: true
+    embed-resources: true
+    smooth-scroll: true
+---
+
+```{r global_options, include=F, warning=F, message=F, echo=F, error=F}
+
+# standard figure size and generate clean output
+knitr::opts_chunk$set(autodep=T, fig.height=4, fig.width=6, warning=FALSE, message=FALSE, cache=TRUE, error=T, echo=FALSE)
+
+library(here)
+source(here::here("scripts/prep.r"))
+
+```
+
+# Happenings
+
+## Summary of the Virtual Training on Advanced Topics in Monitoring, Evaluation, and Learning for MENA MELS
+
+The training was designed to enhance the Monitoring, Evaluation, and Learning (MEL) skills of USAID professionals, specifically addressing the unique challenges faced in the MENA region. The training included 16 short, pre-recorded videos divided into four modules, complemented by five two-hour virtual instructor-led training (VILT) sessions. Each VILT session included a recap of video topics, Q&A, interactive exercises, online games, and real-time polling. The training was facilitated by MSI experts Dan Killian, Thomaz Alvares, Melanie Murphy, Barbara Pando-Behnke, Tim Shifflett, and Jacob Milley. 
+
+The first module of the training covered MEL policy context, randomized control trials, and evaluation design, and featured a TED Talk on impact measurement in conflict zones. The second module focused on statistical matching, cost analysis, complex sampling methods, and data collection techniques in conflict areas. The third module covered advanced modeling methods for logic models and learning agendas, and included a TED Talk on Geographic Information Systems (GIS).The final module explored the use and future applications of AI, large language models, and machine learning in MEL.
+
+The Data Science Team plans to roll out brown bags pulling from these training topics over the next several months. The pre-recorded training videos are found [here](https://www.youtube.com/playlist?list=PLHwXAdVj07tsPrPqtiXY3a68vEc2OImkQ).
+
+## Project Consultations
+
+The Data Science Team recently held its first project consultation with the Afghanistan Monitoring, Evaluation, and Learning Activity (AMELA) to identify key areas for collaboration and support. The discussion focused on three priorities: conducting a trend analysis of flagged TPM data from 2019 onward, delivering tailored data analytics training to address team capacity gaps, and developing a lessons learned document centered on post-Taliban takeover activities. Sixteen AMELA staff completed a survey, detailing their existing data science capabilities and goals. As a result, the Data Science Team is now developing a tailored training program utilizing existing resources for the AMELA team. If you are interested in receiving similar support, please reach out to the Data Science Team^[dst-admin@tetratechinc.onmicrosoft.com] — we look forward to connecting with your project teams soon!
+
+## Publication Highlight
+
+::::: box
+::: box-header
+Pathways to reading comprehension in Amharic vary by reading profile
+:::
+
+::: box-container
+Thomaz Alvares from MSI and Marcia Davidson from the USAID Africa Bureau recently published their research on how ["Pathways to reading comprehension in Amharic vary by reading profile"](https://link.springer.com/article/10.1007/s11145-024-10584-x). This article contributes to the Simple View of Reading (SVR) literature by using advanced analytics to validate the SVR framework for an understudied branch of writing systems, and by strengthening the broader base of evidence that print decoding skill plays a more dominant role than language knowledge in the early stages of reading comprehension development. The article also discusses that L2 (second language) status should play a substantial role in reading interventions in multilingual contexts, and it raises awareness among policymakers about the potential uses of data-driven classification approaches for evaluating both the start state and the differing effects of interventions within different subpopulations of learners. 
+:::
+:::::
+
+## Introduction to Bayesian Analysis Brown Bag
+
+The session focused on the concept of Bayesian analysis, highlighting its foundational importance for analysts and its practical applications. Key topics discussed included the derivation of Bayes' rule using Venn diagrams, basic probability concepts, and the distinction between Bayesian and frequency analysis through a treatment effect example. The application of Bayesian analysis in inferential analysis was emphasized, illustrating how it can be used to estimate relationships between variables and update beliefs based on observed data. Real-world applications were also explored, including setting priors, evaluating evidence, and updating beliefs, with an illustrative example involving the probability of alien life. Additionally, the session addressed the use of Bayesian networks and causal modeling in attaching probabilities to different scenarios for data-driven decision-making. The brown bag was held on November 6, 2024 and led by fearless leader Dan Killian. 
+
+[Recording: Introduction to Bayesian Analysis](https://tetratechinc-my.sharepoint.com/:v:/g/personal/gunjan_maheshwari_tetratech_com/ETmtBmxMTWBKp5jd2yC45rQBvgG972HfFK6SMNg-Zq5ETw)
+
+## Development Data Library Compliance Brown Bag
+
+The brown bag session on Development Data Library (DDL) Compliance took place on September 26, 2024, led by Adam Weber. The session focused on key terms related to uploading final datasets to the DDL, a USAID-funded repository for storing data related to USAID projects. Adam provided a live demonstration on creating an account in the DDL and how to create a data asset. He also reviewed essential checklists for uploads, which include required documents such as codebooks and consent forms.
+
+Resources:
+[Recording](https://tetratechinc-my.sharepoint.com/:v:/g/personal/gunjan_maheshwari_tetratech_com/EXUxO2hurhBBhmaOnb-EjYEBw_KVzSx5Ga4FjdnJO4ZAlw?e=cLwnCu)
+[Presentation](https://msiworldwide.egnyte.com/dl/xAmv44GzXY)
+[Folder to access resources](https://msiworldwide.egnyte.com/fl/zxJO32K1bn)
+
+## GIS COP September Meeting Recap
+On September 5th, we hosted our bi-monthly Geographic Information System (GIS) Community of Practice (COP) with 18 attendees, including folks from home office and our project offices. This meeting was highlighted by an insightful presentation from William Uuci, the GIS & Database Manager for MSI’s Central Africa Regional Third-Party Monitoring (CART) Project which operates in the Central African Republic, Republic of Congo, and Democratic Republic of Congo. William introduced the various ways the project uses GIS including the different types of maps they produce on a regular basis, what datasets they typically use and where they get that data from. He displayed some of his recent work such as TPM Site Visits maps, security accident maps, and planning maps for ETPM reports and quarterly/annual reports. He spoke about how CART uses the data collection tool SurveyToGo to conduct their Site Visits and then uses the subsequent data in their visualizations. Lastly, William showcased the interactive dashboard built using Power BI and Mapbox, which allows users to filter information, view site visit details, and monitor hot button issues. The dashboard is used for both internal and external purposes, with access provided to BHA staff and donors. Thanks to William for this great presentation!
+
+## Upcoming Events
+- Continue project consultations 
+- Intro to GitHub training
+  - GitHub is a web-based platform for version control and collaborative software development, allowing users to store, manage, and share code projects using Git, and it is fully compatible with programming languages like R and Python, enabling seamless integration with tools like RStudio, Jupyter Notebooks, and various IDEs.
+
+# Stats Corner
+
+::::: box
+::: box-header
+Today's puzzle
+:::
+
+::: box-container
+The Missing Men in STEM
+
+Imagine a prestigious university with a strong STEM (science, technology, engineering, and mathematics) program. Admission decisions are based solely on standardized test scores, which are entirely unbiased and designed to measure aptitude. Historically, 60% of applicants are female, and 40% are male. However, after the admissions process, 70% of admitted students are female, and 30% are male.
+
+When analyzing the data, you find:
+
+- Male and female applicants have identical average test scores.
+- The standard deviation of scores is also identical for both groups.
+
+If the test scores and admission criteria are unbiased, why are males underrepresented among admitted students?
+
+Send all responses to Jack Payne^[jack.payne@msi-inc.com].
+:::
+:::::
+
+# About the Data Science Team 
+
+The Data Science Team is a collection of colleagues at MSI that are interested in building and practicing data analytics skills, from the basics of descriptive analytics to advanced machine learning techniques. The core members of the Data Science Team are Dan Killian, Melanie Murphy, Tim Shifflett, Gunjan Maheshwari, Jack Payne, Jacob Milley and Thomaz Alvares. Each member brings a particular expertise to ensure that the team's initiatives are in line with MSI's commitment to incorporate advanced data analytics into our work. The core team supports MSI staff by:
+
+-   Supporting staff conducting quantitative and qualitative analysis with guidance on best practice and available data sources.
+-   Helping staff learn new data science techniques and applying the techniques to existing activities.
+-   Providing trainings on the application of analyses across multiple analytical packages, as well as on core statistical concepts that underlie the analyses.
+-   Holding structured trainings on-demand, at least once per year and 4-12 brown bag sessions per year.
+-   Holding on-demand consultation with home office staff and project teams.
+-   Providing a knowledge management function for past and current data science work at MSI while ensuring everyone knows about these resources.
+
+For support or to ask questions, reach out to us on our [Teams Channel](https://teams.microsoft.com/l/channel/19%3A0c95c6fade9c4d638f660ded25507a9a%40thread.tacv2/General?groupId=175a191b-5543-4fc0-81db-926ead8863f1&tenantId=).
+

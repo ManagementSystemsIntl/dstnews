@@ -2,7 +2,11 @@
 title: "Quarterly Connection"
 subtitle: "The Data Science Newsletter"
 date: "April 30, 2024"
+<<<<<<< HEAD
 description: "A timely update on all things data science at MSI"
+=======
+description: "A timely update on all things data science at MSI<br>This document written in Quarto, a scientific publishing system compatible with R, Python, Julia, and Observable"
+>>>>>>> 4d7ca3e848d6e80e57957d052becf0fbfeec9a8d
 title-block-banner: "#CACACA"
 format: 
   html:
@@ -27,7 +31,11 @@ source(here::here("../methods corner/misc/prep.r"))
 
 ## TPM Sampling Brown Bag
 
+<<<<<<< HEAD
 
+=======
+The first sampling brown bag provided a comprehensive overview of sampling approaches in the context of Third-Party Monitoring (TPM), covering various techniques such as simple random, systematic random, stratified, cluster, convenience, and snowball sampling. It emphasized the importance of selecting appropriate sampling methods based on the objectives of the monitoring activity, the characteristics of the population, and resource constraints. 
+>>>>>>> 4d7ca3e848d6e80e57957d052becf0fbfeec9a8d
 
 ## Sampling Pt2 Brown Bag
 
@@ -48,6 +56,7 @@ flextable(samp_sum) %>%
 
 ```
 
+<<<<<<< HEAD
 
 ## Learning burst - Andres
 
@@ -57,6 +66,46 @@ flextable(samp_sum) %>%
 
 For recordings, presentations, and any associated background material on any DST event, please visit our [Egnyte repository](https://msiworldwide.egnyte.com/navigate/folder/acca480d-c7b8-462a-8c49-508441335a6d).
 
+=======
+For recordings, presentations, and any associated background material on any DST event, please visit our [Egnyte repository](https://msiworldwide.egnyte.com/navigate/folder/acca480d-c7b8-462a-8c49-508441335a6d).
+
+# Learning Bursts
+
+In the past, the data science team has held weekly office hours as an opportunity to support staff with any analytical problem members may need help with. We have transitioned to use the first part of office hours as a time to hold - what we call - “learning bursts”. These learning bursts are 10 to 30 minute demonstrations or presentations held at the beginning of office hours and will focus on a variety of topics. 
+
+In March, the data science team started a new series of "learning bursts" taking the best minds from our project teams and having them share approaches that enhance the speed and efficiency in their work.
+
+## Utilizing AI Models for Text Translation
+
+On March 6th, Data and Information Management Specialist Andres Triana Reina presented on the use of pre-trained artificial intelligence models for text translation utilizing the Python programming language. He provided a brief overview of [Hugging Face] (https://huggingface.co) and [PyTorch] (https://pytorch.org/) before walking through the code used to develop models for text translation. He demonstrated the different outputs of the language models and described the process his team makes when using this information for reports. 
+
+The use of pre-trained artificial intelligence models for text translation offers several benefits that could be advantageous for other projects:
+**- Efficiency in Translation:** Utilizing pre-trained AI models for text translation can significantly improve the efficiency of translation tasks. These models are trained on vast amounts of text data and have learned to generate accurate translations quickly. By leveraging these models, projects can save time and resources compared to manual translation methods.
+**- Scalability:** AI-based text translation solutions can easily scale to handle large volumes of text data. Whether it's translating a single document or processing a continuous stream of text, these models can handle the workload with minimal additional effort. This scalability makes them suitable for projects of varying sizes and scopes.
+**- Consistency and Accuracy:** AI models provide consistent and accurate translations, ensuring uniformity in the quality of translated content. Human translators may introduce inconsistencies or errors over time, especially when dealing with large volumes of text. By relying on AI models, projects can maintain a high level of translation quality across all their content.
+**- Cost-Effectiveness:** While traditional translation services can be costly, leveraging pre-trained AI models for text translation can offer a more cost-effective solution. Once the models are trained and implemented, the marginal cost of translating additional text is relatively low compared to hiring human translators for each task.
+
+If you are interested in learning how to adopt the use of AI for text translation for any of your projects, please reach out to [Andres] (ANDRES.TRIANAREINA@msi-inc.com) and [Melanie Murphy] (melanie.murphy@msi-inc.com). 
+
+## Survey Export and Do-file Automation
+
+On March 20th, office hours started with an exciting learning burst hosted by Strategic Information Manager, Busayo Bello. She demonstrated how the Nigeria Monitoring Project (NMP) uses the command-line prompt to automate exporting monitoring data from SurveyToGo (NMP’s data collection platform). Additionally, she presented how NMP has simplified data cleaning by automating do-file generation within an existing do-file on STATA. 
+
+This demonstration highlighted techniques that could be immensely beneficial for other projects:
+**- Efficiency in Data Extraction:** Using the command-line prompt to automate the exporting of monitoring data from a survey platform can significantly enhance efficiency. Manual extraction processes are time-consuming and prone to errors. Automating this task reduces the risk of human error and frees up valuable time for data scientists to focus on more complex analysis tasks.
+**- Streamlined Data Cleaning:** Data cleaning is often one of the most time-consuming aspects of data analysis. By automating the generation of do-files within an existing do-file on STATA, projects can streamline their data cleaning process. This automation not only saves time but also ensures consistency in data cleaning procedures across different datasets. 
+**- Replicability and Scalability:** The techniques demonstrated are highly replicable and scalable. Other projects can adapt these techniques to their specific data collection and analysis workflows, regardless of the platform or software they use. By implementing automation in data extraction and cleaning processes, projects can achieve greater consistency, efficiency, and scalability in their data analysis efforts.
+
+If you are interested in learning how to adopt either of these techniques, please reach out to [Melanie Murphy] (melanie.murphy@msi-inc.com) to assist you in the process. 
+
+## Ready for a learning burst?
+
+Are you itching to share your latest Python trick, dazzle us with your machine learning prowess, or maybe just delve into the intricacies of data visualization techniques? Then buckle up, because it's time for another round of Learning Bursts! 
+
+These bursts of knowledge are all about YOU! Yes, YOU—the brilliant minds that make up our data science family. Whether you're a seasoned coding wizard or just dipping your toes into the vast ocean of data, we want to hear from YOU.
+
+So, if you've got a topic burning in your brain or a cool project you've been dying to showcase, don't be shy! Shoot us a message and let's make magic happen together. Because here, every voice counts, every idea shines, and every member is a vital piece of our data science puzzle.
+>>>>>>> 4d7ca3e848d6e80e57957d052becf0fbfeec9a8d
 
 # Stats corner
 
@@ -87,6 +136,7 @@ Send all responses to [Dan Killian](dkillian@msi-inc.com)
 :::
 
 
+<<<<<<< HEAD
 
 # Project spotlight - PIMMELLA
 
@@ -94,8 +144,35 @@ Send all responses to [Dan Killian](dkillian@msi-inc.com)
 # Member Spotlight - Ethiopia Data Analyst 
 
 
+
 # Recap: GIS COP April Meeting
 
+=======
+# Project spotlight - PIMMELLA
+The Philippines, Pacific Islands, and Mongolia Monitoring, Evaluation, and Learning Activity (PIMMELA), aims to support USAID’s initiatives across a vast geographic region. PIMMELA will be based in Manila, Philippines, with additional offices in Fiji, Papua New Guinea, and Mongolia. The project's primary focus is to enhance USAID’s decision-making and program effectiveness through innovative data analytics and management solutions.
+
+Key data science and analytics initiatives planned for PIMMELA include the integration of advanced technologies like simulation modeling and machine learning to analyze complex datasets more efficiently. These techniques will produce actionable insights that can inform USAID’s strategic planning and implementation. PIMMELA will utilize data visualization tools and techniques to make the monitoring, evaluation, research, reporting, learning, analysis, and adaptation (MERRLAA) products more accessible and actionable for stakeholders. This new project and robust approach underscores MSI's commitment to employing cutting-edge data science to improve development outcomes in the Philippines, Pacific Islands, and Mongolia.
+
+
+# Member Spotlight - Ethiopia Data Analyst 
+::: {layout-ncol=2}
+![Natnael Mamuye](../viz/Natnael-Mamuye.png)
+:::
+
+In this edition of Quarterly Connection, we are pleased to showcase the contributions of our newest member of the Data Science Team, Natnael Mamuye, who recently joined the Ethiopia Learning Analytics Activity Third Party Monitoring (TPM) Team as a TPM Data Analyst and Reporting Officer. Despite being new to the team, Natnael has swiftly taken on the responsibility of analyzing and reporting on over 300 site visits per month for the Ethiopia TPM, ensuring timely and comprehensive reports and presentations for USAID within demanding timelines.
+
+Natnael brings a wealth of experience and expertise to his role, including:
+-   Bachelor's degree in Statistics and Master's degree in Applied Statistics.
+-   Previous experience as a lecturer in the Department of Statistics at Debre Berhan University.
+-   Previous roles as a Quantitative Researcher at the Ethiopian Technology and Innovation Institute and as a Data Engineer at the Ethiopian Artificial Intelligence Institute.
+-   Proficiency in Stata, Python, Power BI, and SPSS.
+
+His diverse background and proficiency in data analysis tools make him a valuable asset to the Ethiopia LAA team and the Data Science Community at MSI, and we look forward to his continued contributions to our projects. 
+
+# Recap: GIS COP April Meeting
+
+On April 4th, our HO GIS Specialist Jacob Milley hosted the third GIS Community of Practice meeting with 13 attendees from varying projects/countries including the Philippines, DRC, and Colombia. The meeting included a recap of the previous COP meeting where we further discussed the collaborative matrix of commonly used GIS data sources with that of goal establishing an authoritative a list of freely accessible GIS data sources. The main component of this meeting was a presentation from Rohit Jayendra, the Database/GIS Specialist on MSI’s Mozambique MEL Activity, about a script that he built which takes an Excel spreadsheet and turns it into a Fulcrum survey. Fulcrum is one of a few data collection tools that MSI frequently uses, and form creation, while easy, can be quite time consuming based on the number of questions and logic in your survey. Rohit’s script aims to reduce the time spent building surveys in Fulcrum, and instead imports everything about a survey from an Excel file. In the future, Client Solutions hopes to introduce this tool to other projects that use Fulcrum for their data collection.
+>>>>>>> 4d7ca3e848d6e80e57957d052becf0fbfeec9a8d
 
 # Upcoming events/opportunities
 
@@ -103,9 +180,23 @@ Send all responses to [Dan Killian](dkillian@msi-inc.com)
 
 - Brown bag on Power BI Part 3 in June
 
+<<<<<<< HEAD
 
 # Section on Brian
 
+=======
+# Fare thee well, Brian Calhoon
+
+The data science team bids farewell to founding member Brian Calhoon, who thankfully will still have opportunities to work with MSI through our partnerships with Encompass. Brian was instrumental in advancing the practice of data science at MSI. Brian introduced the topic of social network analysis to all MSI technical staff, helped demonstrate its uses, and developed potential use cases for how MSI might utilize social network analysis in its work. Brian also led the development of geospatial mapping and analysis using the R programming language.  Last but not least, Brian used the R programming language to enable the data science team to include interactive tables in its reporting, in which the client could filter a measure of interest against any number of demographic or other disaggregations. 
+
+Brian will be remembered less for his technical contributions than for his warmth and kindness as a human. 
+
+# Data science team welcomes: Thomaz Alvares
+
+Starting from his time as an evaluation specialist with JPAL, and continuing on to a long service with the MSI Education Team, Thomaz (already an honorary member of and technical advisor to the team) will now take a more active role. Thomaz is currently a Technical Director in the Education practice, and among other roles serves as Deputy Director of the DECODE activity. 
+
+Welcome, Thomaz! 
+>>>>>>> 4d7ca3e848d6e80e57957d052becf0fbfeec9a8d
 
 # About the Data Science Team
 
@@ -126,6 +217,10 @@ The Data Science Team (DST) is a collection of colleagues at MSI that are intere
 
 For support or to ask questions, reach out to us on our [Teams Channel](https://teams.microsoft.com/l/channel/19%3A0c95c6fade9c4d638f660ded25507a9a%40thread.tacv2/General?groupId=175a191b-5543-4fc0-81db-926ead8863f1&tenantId=).
 :::
+<<<<<<< HEAD
 :::
 
 
+=======
+:::
+>>>>>>> 4d7ca3e848d6e80e57957d052becf0fbfeec9a8d
